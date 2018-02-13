@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 //////////////////////////////////////////////////
 // глобальные стили
 p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
@@ -10,13 +11,33 @@ p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
   -webkit-user-select: none;
 	user-select: none;
 }
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
 //////////////////////////////////////////////////
 // блоки
 header { //////////////////////////////////////////////////
   background: linear-gradient(45deg, rgb(236, 186, 190) 0%,rgb(224, 174, 177) 35%,rgb(138, 198, 208) 100%);
+  line-height: 36px;
+  text-transform: uppercase;
   img {
-    weight: 15px;
+    width: 15px;
     height: 15px;
+    margin-top: -5px;
+    margin-right: 10px;
+  }
+  a {
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    transition: .5s;
+    &:hover {
+      color: rgb(80, 53, 196);
+    }
   }
 }
 //////////////////////////////////////////////////
