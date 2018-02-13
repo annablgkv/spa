@@ -6,3 +6,9 @@ p, h1, h2, h3, h4, h5, h6 {
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none; }
+
+header {
+  background: linear-gradient(45deg, #ecbabe 0%, #e0aeb1 35%, #8ac6d0 100%); }
+  header img {
+    weight: 15px;
+    height: 15px; }
