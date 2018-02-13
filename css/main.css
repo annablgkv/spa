@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px; }
 
@@ -6,3 +7,24 @@ p, h1, h2, h3, h4, h5, h6 {
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none; }
+
+a:hover {
+  text-decoration: none; }
+
+header {
+  background: linear-gradient(45deg, #ecbabe 0%, #e0aeb1 35%, #8ac6d0 100%);
+  line-height: 36px;
+  text-transform: uppercase; }
+  header img {
+    width: 15px;
+    height: 15px;
+    margin-top: -5px;
+    margin-right: 10px; }
+  header a {
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    transition: .5s; }
+    header a:hover {
+      color: #5035c4; }
