@@ -1,12 +1,13 @@
-* {
-	margin: 0;
-	padding: 0;
+//////////////////////////////////////////////////
+// глобальные стили
+p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
+	margin-bottom: 0px;
 }
 
-body {
-	background: red;
-	color: white;
-	p {
-		color: green;
-	}
+.dontTouchMe {	// блокирует выделение текста
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+	user-select: none;
 }
+//////////////////////////////////////////////////
