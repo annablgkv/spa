@@ -40,5 +40,89 @@ header { //////////////////////////////////////////////////
     }
   }
 }
-//////////////////////////////////////////////////
 
+
+#spaLinks { //////////////////////////////////////////////////
+  padding-top:30px;
+  padding-bottom:30px;
+  background-color: white;
+  .spaLinkBlock {
+    background-size: cover;
+    height:250px;
+    text-align: center;
+    a {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      color: #fff;
+      letter-spacing: 3px;
+      font-size: 17px;
+      line-height: 17px;
+      text-transform: uppercase;
+      display:block;
+      padding-top: 205px;
+    }
+  }
+  .spaLinkBlock1 {
+    background-image: url('../img/focus-5.jpg');
+  }
+  .spaLinkBlock2 {
+    background-image: url('../img/focus-10.jpg');
+  }
+  .spaLinkBlock3 {
+    background-image: url('../img/focus-6.jpg');
+  }
+  .spaLinkShadows{
+    background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.3));
+    height: 100%;
+    width: 100%;
+  }
+
+}
+//////////////////////////////////////////////////
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+#spaLinks {
+  .spaLinkBlock {
+    background-position: center center; 
+  }
+}
+}
+/////////////////////////////////////////////////
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+#spaLinks {
+  .spaLinkBlock {
+    background-position: center center; 
+    height: 180px;
+    a {
+      padding-top: 135px;
+    }
+  }
+}
+}
+///////////////////////////////////////////////////
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+#spaLinks {
+  padding-bottom: 5px;
+  .spaLinkBlock {
+    background-position: center center; 
+    margin-bottom: 25px;
+  }
+}
+}
+///////////////////////////////////////////////////
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+ #spaLinks {
+  padding-bottom: 5px;
+  .spaLinkBlock {
+    background-position: center center;
+    height: 150px; 
+    margin-bottom: 25px;
+    a {
+      padding-top: 115px;
+    }
+  }
+} 
+}
