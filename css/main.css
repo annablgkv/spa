@@ -37,35 +37,126 @@ header {
 nav {
   border-bottom: 1px solid #f1f1f1;
   border-top: 1px solid #f1f1f1;
-  padding: 15px; }
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 29px; }
   nav ul {
-    padding-left: 0px;
-    margin-bottom: 0px; }
-    nav ul li {
+    margin: 0;
+    padding: 0; }
+  nav #menu {
+    text-align: center; }
+    nav #menu ul {
+      display: none;
+      position: absolute;
+      margin-left: -15px; }
+      nav #menu ul ul {
+        margin: 0 0 0 100%;
+        width: 160px; }
+    nav #menu li {
+      list-style: none;
       display: inline-block; }
-      nav ul li ul {
-        position: absolute;
-        display: none; }
-        nav ul li ul li {
-          display: block;
-          padding: 15px 20px;
-          border-bottom: 1px solid #f1f1f1;
-          text-align: left;
-          background-color: #fff;
-          position: relative;
-          box-shadow: 0px 2px 5px #f1f1f1;
-          float: left;
-          width: 100%; }
-    nav ul .link {
+    nav #menu .sub-menu li {
+      display: flex; }
+    nav #menu .link {
+      text-transform: uppercase;
+      display: flex;
+      text-align: center;
+      text-decoration: none;
       color: #727475;
-      font-size: 13px;
-      line-height: 29px;
-      font-family: "Open Sans";
-      font-weight: 300;
       letter-spacing: 3px;
-      text-transform: uppercase; }
-      nav ul .link:after {
+      padding: 15px 0;
+      transition: .5s; }
+      nav #menu .link:hover {
+        color: #362f57; }
+      nav #menu .link:after {
         content: "|";
         display: inline-block;
         margin: 0px 20px;
-        color: #f1f1f1; }
+        color: #f1f1f1;
+        font-family: Arial, Helvetica, sans-serif; }
+    nav #menu .btnContact {
+      text-transform: uppercase;
+      display: flex;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      letter-spacing: 3px;
+      background: #8ac6d0;
+      transition: .5s;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 15px;
+      margin-bottom: 15px; }
+      nav #menu .btnContact:hover {
+        background: #CCB4B8; }
+    nav #menu .sub-menu {
+      border-left: 1px solid #f1f1f1;
+      border-right: 1px solid #f1f1f1;
+      border-top: 1px solid #f1f1f1;
+      box-shadow: 0px 2px 5px #f1f1f1; }
+    nav #menu .sub-menu li {
+      border-bottom: 1px solid #f1f1f1; }
+    nav #menu .sub-menu li a {
+      padding: 10px 20px;
+      text-align: left;
+      position: relative;
+      float: left;
+      width: 100%;
+      font-size: 12px;
+      color: #727475;
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 3px;
+      background: #fff; }
+      nav #menu .sub-menu li a:hover {
+        background: #f9f9f9; }
+    nav #menu .itemNew > a:after {
+      content: "new";
+      text-transform: uppercase;
+      position: relative;
+      float: right;
+      background-color: #8ac6d0;
+      border-radius: 15px;
+      padding: 3px 8px;
+      letter-spacing: 0px;
+      color: #fff;
+      font-size: 10px;
+      line-height: 10px;
+      margin-top: 7px;
+      margin-left: 10px; }
+    nav #menu .itemHot > a:after {
+      content: "hot";
+      text-transform: uppercase;
+      position: relative;
+      float: right;
+      background-color: #ecbabe;
+      border-radius: 15px;
+      padding: 3px 8px;
+      letter-spacing: 0px;
+      color: #fff;
+      font-size: 10px;
+      line-height: 10px;
+      margin-top: 7px;
+      margin-left: 10px; }
+    nav #menu .itemBest > a:after {
+      content: "best";
+      text-transform: uppercase;
+      position: relative;
+      float: right;
+      background-color: #d9cbdb;
+      border-radius: 15px;
+      padding: 3px 8px;
+      letter-spacing: 0px;
+      color: #fff;
+      font-size: 10px;
+      line-height: 10px;
+      margin-top: 7px;
+      margin-left: 10px; }
+    nav #menu .menu-item-has-children > a:after {
+      content: "";
+      position: relative;
+      float: right;
+      border-style: solid;
+      border-width: 5px 0 5px 5px;
+      border-color: transparent transparent transparent #727475;
+      margin-top: 9px; }
