@@ -62,7 +62,7 @@ nav { //////////////////////////////////////////////////
     margin: 0;
     padding: 0;
   }
-  #menu {
+  .menu { // class menu (start)
     text-align: center;
     ul { // hide sub-menu
       display: none;
@@ -203,7 +203,7 @@ nav { //////////////////////////////////////////////////
         margin-top: 9px;
       }
     }
-  }
+  } // class menu (end)
 }
 
 

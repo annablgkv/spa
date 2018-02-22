@@ -44,21 +44,21 @@ nav {
   nav ul {
     margin: 0;
     padding: 0; }
-  nav #menu {
+  nav .menu {
     text-align: center; }
-    nav #menu ul {
+    nav .menu ul {
       display: none;
       position: absolute;
       margin-left: -15px; }
-      nav #menu ul ul {
+      nav .menu ul ul {
         margin: 0 0 0 100%;
         width: 160px; }
-    nav #menu li {
+    nav .menu li {
       list-style: none;
       display: inline-block; }
-    nav #menu .sub-menu li {
+    nav .menu .sub-menu li {
       display: flex; }
-    nav #menu .link {
+    nav .menu .link {
       text-transform: uppercase;
       display: flex;
       text-align: center;
@@ -67,15 +67,15 @@ nav {
       letter-spacing: 3px;
       padding: 15px 0;
       transition: .5s; }
-      nav #menu .link:hover {
+      nav .menu .link:hover {
         color: #362f57; }
-      nav #menu .link:after {
+      nav .menu .link:after {
         content: "|";
         display: inline-block;
         margin: 0px 20px;
         color: #f1f1f1;
         font-family: Arial, Helvetica, sans-serif; }
-    nav #menu .btnContact {
+    nav .menu .btnContact {
       text-transform: uppercase;
       display: flex;
       text-align: center;
@@ -88,16 +88,16 @@ nav {
       padding-right: 15px;
       border-radius: 15px;
       margin-bottom: 15px; }
-      nav #menu .btnContact:hover {
+      nav .menu .btnContact:hover {
         background: #CCB4B8; }
-    nav #menu .sub-menu {
+    nav .menu .sub-menu {
       border-left: 1px solid #f1f1f1;
       border-right: 1px solid #f1f1f1;
       border-top: 1px solid #f1f1f1;
       box-shadow: 0px 2px 5px #f1f1f1; }
-    nav #menu .sub-menu li {
+    nav .menu .sub-menu li {
       border-bottom: 1px solid #f1f1f1; }
-    nav #menu .sub-menu li a {
+    nav .menu .sub-menu li a {
       padding: 10px 20px;
       text-align: left;
       position: relative;
@@ -108,9 +108,9 @@ nav {
       font-family: "Open Sans", sans-serif;
       letter-spacing: 3px;
       background: #fff; }
-      nav #menu .sub-menu li a:hover {
+      nav .menu .sub-menu li a:hover {
         background: #f9f9f9; }
-    nav #menu .itemNew > a:after {
+    nav .menu .itemNew > a:after {
       content: "new";
       text-transform: uppercase;
       position: relative;
@@ -124,7 +124,7 @@ nav {
       line-height: 10px;
       margin-top: 7px;
       margin-left: 10px; }
-    nav #menu .itemHot > a:after {
+    nav .menu .itemHot > a:after {
       content: "hot";
       text-transform: uppercase;
       position: relative;
@@ -138,7 +138,7 @@ nav {
       line-height: 10px;
       margin-top: 7px;
       margin-left: 10px; }
-    nav #menu .itemBest > a:after {
+    nav .menu .itemBest > a:after {
       content: "best";
       text-transform: uppercase;
       position: relative;
@@ -152,7 +152,7 @@ nav {
       line-height: 10px;
       margin-top: 7px;
       margin-left: 10px; }
-    nav #menu .menu-item-has-children > a:after {
+    nav .menu .menu-item-has-children > a:after {
       content: "";
       position: relative;
       float: right;
