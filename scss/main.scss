@@ -341,6 +341,29 @@ nav { //////////////////////////////////////////////////
   }
 }
 
+
+footer {
+  border-top: 1px solid #f1f1f1;
+  padding: 15px 0 15px 0;
+  color: #a3a3a3;
+  font-family: 'Open Sans', sans-serif;
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #a3a3a3;
+    text-transform: uppercase;
+    transition: .5s;
+    i {
+      padding: 0 10px 0 20px;
+    }    
+  }
+}
+
+
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -362,9 +385,8 @@ nav { //////////////////////////////////////////////////
     background-position: center center; 
   }
 }
-} // 
 
-
+} // end! media Large devices (desktops, 992px and up)
 /////////////////////////////////////////////////
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -392,9 +414,15 @@ nav { //////////////////////////////////////////////////
 }
 
 
+footer { //////////////////////////////////////////////////
+  p {
+    margin-bottom: 10px;
+  }
 }
 
 
+
+} // end! media Medium devices (tablets, 768px and up)
 ///////////////////////////////////////////////////
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -418,9 +446,20 @@ nav { //////////////////////////////////////////////////
     margin-bottom: 25px;
   }
 }
-}
 
 
+footer { //////////////////////////////////////////////////
+  p {
+    margin-bottom: 10px;
+  }
+  a {
+    i {
+      padding: 0 15px 0 15px;
+    }
+  }
+} 
+
+} // end! media Small devices (landscape phones, 576px and up)
 ///////////////////////////////////////////////////
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -449,4 +488,17 @@ nav { //////////////////////////////////////////////////
     }
   }
 } 
-}
+
+
+footer { //////////////////////////////////////////////////
+  p {
+    margin-bottom: 10px;
+  }
+  a {
+    i {
+      padding: 0 15px 0 15px;
+    }
+  }
+} 
+
+} // end! media Extra small devices (portrait phones, less than 576px)
