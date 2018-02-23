@@ -93,7 +93,7 @@ nav { //////////////////////////////////////////////////
       color: #727475;
       letter-spacing: 3px;
       padding: 15px 0;
-      transition: .5s;
+      transition: .3s;
       &:hover {
         color: rgb(54, 47, 87);
       }
@@ -113,11 +113,11 @@ nav { //////////////////////////////////////////////////
       color: #fff;
       letter-spacing: 3px;
       background: #8ac6d0;
-      transition: .5s;
       padding-left: 15px;
       padding-right: 15px;
       border-radius: 15px;
       margin-bottom: 15px;
+      transition: .3s;
       &:hover {
         background: #CCB4B8;
       }
@@ -209,13 +209,13 @@ nav { //////////////////////////////////////////////////
       }
     }
   } // class menu (end)
-  // mobi menu (start)
+  // mobi menu BUTTON (start)
   #btnMobiMenu {
     width: 25px;
     height: 25px;
     margin: auto;
   }
-  // mobi menu (end)  
+  // mobi menu BUTTON (end)  
 }
 
 
@@ -306,6 +306,8 @@ nav { //////////////////////////////////////////////////
     }
   }
 }
+
+
 }
 
 

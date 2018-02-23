@@ -67,7 +67,7 @@ nav {
       color: #727475;
       letter-spacing: 3px;
       padding: 15px 0;
-      transition: .5s; }
+      transition: .3s; }
       nav .menu .link:hover {
         color: #362f57; }
       nav .menu .link:after {
@@ -84,11 +84,11 @@ nav {
       color: #fff;
       letter-spacing: 3px;
       background: #8ac6d0;
-      transition: .5s;
       padding-left: 15px;
       padding-right: 15px;
       border-radius: 15px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      transition: .3s; }
       nav .menu .btnContact:hover {
         background: #CCB4B8; }
     nav .menu .sub-menu {
@@ -161,6 +161,10 @@ nav {
       border-width: 5px 0 5px 5px;
       border-color: transparent transparent transparent #727475;
       margin-top: 9px; }
+  nav #btnMobiMenu {
+    width: 25px;
+    height: 25px;
+    margin: auto; }
 
 #spaLinks {
   padding-top: 30px;
@@ -192,10 +196,20 @@ nav {
     width: 100%; }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #logo img {
+    padding-bottom: 25px; }
+  nav {
+    border-top: none;
+    padding-bottom: 30px; }
   #spaLinks .spaLinkBlock {
     background-position: center center; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #logo img {
+    padding-bottom: 25px; }
+  nav {
+    border-top: none;
+    padding-bottom: 30px; }
   #spaLinks .spaLinkBlock {
     background-position: center center;
     height: 180px; }
@@ -203,6 +217,11 @@ nav {
       padding-top: 135px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #logo img {
+    padding-bottom: 25px; }
+  nav {
+    border-top: none;
+    padding-bottom: 30px; }
   #spaLinks {
     padding-bottom: 5px; }
     #spaLinks .spaLinkBlock {
@@ -210,6 +229,12 @@ nav {
       margin-bottom: 25px; } }
 
 @media (max-width: 575.98px) {
+  #logo img {
+    width: 280px;
+    padding-bottom: 25px; }
+  nav {
+    border-top: none;
+    padding-bottom: 30px; }
   #spaLinks {
     padding-bottom: 5px; }
     #spaLinks .spaLinkBlock {
