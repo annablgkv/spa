@@ -29,6 +29,41 @@ header {
     header a:hover {
       color: #5035c4; }
 
+#mobiMenu {
+  width: 300px;
+  height: 100%;
+  background: #ecbabe;
+  position: fixed;
+  z-index: 1;
+  right: -300px;
+  padding: 40px;
+  transition: all 0.8s ease;
+  overflow: scroll; }
+  #mobiMenu img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 25px;
+    top: 20px; }
+  #mobiMenu ul {
+    margin: 0;
+    padding: 0; }
+    #mobiMenu ul li {
+      list-style: none;
+      text-align: left; }
+      #mobiMenu ul li a {
+        padding: 10px 0px;
+        display: inline-block;
+        font-size: 24px;
+        font-family: 'Open Sans';
+        color: #fff; }
+  #mobiMenu .sub-menu {
+    padding: 0px 0px 20px 0px; }
+    #mobiMenu .sub-menu li {
+      padding-left: 20px; }
+      #mobiMenu .sub-menu li a {
+        font-size: 14px; }
+
 #logo img {
   width: 320px;
   padding-top: 35px;
