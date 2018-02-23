@@ -44,7 +44,8 @@ header {
     height: 25px;
     position: absolute;
     right: 25px;
-    top: 20px; }
+    top: 20px;
+    cursor: pointer; }
   #mobiMenu ul {
     margin: 0;
     padding: 0; }
@@ -199,7 +200,8 @@ nav {
   nav #btnMobiMenu {
     width: 25px;
     height: 25px;
-    margin: auto; }
+    margin: auto;
+    cursor: pointer; }
 
 #spaLinks {
   padding-top: 30px;

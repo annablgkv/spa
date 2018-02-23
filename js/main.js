@@ -1,19 +1,19 @@
 // nav logic (start)
 $('nav li').mouseenter(function () {
-  $('nav .sub-menu', this).show()
-  $('nav .sub-menu .sub-menu', this).hide()
+  $('.sub-menu', this).show()
+  $('.sub-menu .sub-menu', this).hide()
 })
 
 $('nav li').mouseleave(function () {
-  $('nav .sub-menu', this).hide()
+  $('.sub-menu', this).hide()
 })
 
 $('nav .sub-menu li').mouseenter(function () {
-  $('nav .sub-menu', this).show()
+  $('.sub-menu', this).show()
 })
 
 $('nav .sub-menu li').mouseleave(function () {
-  $('nav .sub-menu', this).hide()
+  $('.sub-menu', this).hide()
 })
 
 $('#btnMobiMenu').click(function () {
