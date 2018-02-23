@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 //////////////////////////////////////////////////
 // глобальные стили
 p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
@@ -261,8 +262,15 @@ nav { //////////////////////////////////////////////////
     cursor: pointer;
   }
   // mobi menu BUTTON (end)  
+  #btnMenuSearch {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 25px;
+    margin-top: -40px;
+    cursor: pointer;
+  }
 }
-
 
 #spaLinks { //////////////////////////////////////////////////
   padding-top:30px;
@@ -301,6 +309,37 @@ nav { //////////////////////////////////////////////////
 
 }
 
+
+#blockSearch { //////////////////////////////////////////////////
+  background: none;
+  border: none;
+  margin-top: 45vh;
+  input[type="text"] {
+    background: none;
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Playfair Display', sans-serif;
+    padding: 10px 20px;
+    width: 350px;
+  }
+  input[type="submit"] {
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 20px;
+    background-color: #8ac6d0;
+    border-width: 0px;
+    border-color: #8ac6d0;
+    border-radius: 25px;
+    border-style: solid;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Playfair Display', sans-serif;
+  }
+}
 
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
