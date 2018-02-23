@@ -5,6 +5,7 @@ p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
 	margin-bottom: 0px;
 }
 
+
 .dontTouchMe {	// блокирует выделение текста
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -12,11 +13,13 @@ p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
 	user-select: none;
 }
 
+
 a {
   &:hover {
     text-decoration: none;
   }
 }
+
 
 //////////////////////////////////////////////////
 // блоки
@@ -50,6 +53,7 @@ header { //////////////////////////////////////////////////
     padding-bottom: 45px;
   }
 }
+
 
 nav { //////////////////////////////////////////////////
   border-bottom: 1px solid #f1f1f1;
@@ -142,7 +146,7 @@ nav { //////////////////////////////////////////////////
         background: #f9f9f9;  
       }
     }
-    .itemNew > a {
+    .itemNew > a { // tag NEW
       &:after {
         content: "new";
         text-transform: uppercase;
@@ -159,7 +163,7 @@ nav { //////////////////////////////////////////////////
         margin-left: 10px;        
       }
     }
-    .itemHot > a {
+    .itemHot > a { // tag HOT
       &:after {
         content: "hot";
         text-transform: uppercase;
@@ -176,7 +180,7 @@ nav { //////////////////////////////////////////////////
         margin-left: 10px;
       }
     }
-    .itemBest > a {
+    .itemBest > a { // tag BEST
       &:after {
         content: "best";
         text-transform: uppercase;
@@ -193,7 +197,7 @@ nav { //////////////////////////////////////////////////
         margin-left: 10px;
       }
     }
-    .menu-item-has-children > a {
+    .menu-item-has-children > a { // sub-menu >> sub-menu
       &:after {
         content: "";
         position: relative;
@@ -205,6 +209,13 @@ nav { //////////////////////////////////////////////////
       }
     }
   } // class menu (end)
+  // mobi menu (start)
+  #btnMobiMenu {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+  }
+  // mobi menu (end)  
 }
 
 
@@ -244,18 +255,48 @@ nav { //////////////////////////////////////////////////
   }
 
 }
+
+
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
-#spaLinks {
+#logo { //////////////////////////////////////////////////
+  img {
+    padding-bottom: 25px;
+  }
+}
+
+
+nav { //////////////////////////////////////////////////
+  border-top: none;
+  padding-bottom: 30px;
+}
+
+
+#spaLinks { //////////////////////////////////////////////////
   .spaLinkBlock {
     background-position: center center; 
   }
 }
-}
+} // 
+
+
 /////////////////////////////////////////////////
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+#logo { //////////////////////////////////////////////////
+  img {
+    padding-bottom: 25px;
+  }
+}
+
+
+nav { //////////////////////////////////////////////////
+  border-top: none;
+  padding-bottom: 30px;
+}
+
+
 #spaLinks {
   .spaLinkBlock {
     background-position: center center; 
@@ -266,9 +307,24 @@ nav { //////////////////////////////////////////////////
   }
 }
 }
+
+
 ///////////////////////////////////////////////////
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+#logo { //////////////////////////////////////////////////
+  img {
+    padding-bottom: 25px;
+  }
+}
+
+
+nav { //////////////////////////////////////////////////
+  border-top: none;
+  padding-bottom: 30px;
+}
+
+
 #spaLinks {
   padding-bottom: 5px;
   .spaLinkBlock {
@@ -277,10 +333,26 @@ nav { //////////////////////////////////////////////////
   }
 }
 }
+
+
 ///////////////////////////////////////////////////
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
- #spaLinks {
+#logo { //////////////////////////////////////////////////
+  img {
+    width: 280px;
+    padding-bottom: 25px;
+  }
+}
+
+
+nav { //////////////////////////////////////////////////
+  border-top: none;
+  padding-bottom: 30px;
+}
+
+
+#spaLinks {
   padding-bottom: 5px;
   .spaLinkBlock {
     background-position: center center;
