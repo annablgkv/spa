@@ -273,11 +273,11 @@ nav { //////////////////////////////////////////////////
 }
 
 
-#mainSlider {
-  height: 700px;
-  .crosscover {
-     height: 700px;
-  }
+#mainSlider { //////////////////////////////////////////////////
+  height: 600px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 

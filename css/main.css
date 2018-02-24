@@ -212,9 +212,10 @@ nav {
     cursor: pointer; }
 
 #mainSlider {
-  height: 700px; }
-  #mainSlider .crosscover {
-    height: 700px; }
+  height: 600px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 #spaLinks {
   padding-top: 30px;

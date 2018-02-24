@@ -22,25 +22,46 @@ $('#btnMobiMenu').click(function () {
   })
 })
 
-$("#btnCloseMobiMenu").click(function () {
+$('#btnCloseMobiMenu').click(function () {
   $('#mobiMenu').css({
     "right": "-300px"
   })
 })
 // nav logic (end)
 
+// main slider logic(start)
+var slider = [
+  {
+    img: '../img/parallax-4.jpg',
+    title: 'spa',
+    desc: 'lorem',
+    link: '/news/new1',
+  },
+  {
+    img: '../img/parallax-8-1.jpg',
+    title: 'spa 2',
+    desc: 'lorem',
+    link: '/news/new1',
+  },
+]
 
-$(".crosscover").crosscover({
-  inClass: 'fade-in',
-  outClass: 'fade-out',
-  interval: 5000,
-  startIndex: 0,
-  autoPlay: true,
-  dotsNav: false,
-  controller: true,
-  controllerClass: 'crosscover-controller',
-  prevClass: 'crosscover-prev',
-  nextClass: 'crosscover-next',
-  prevInnerHtml: '<span class="crosscover-icon-prev"></span>',
-  nextInnerHtml: '<span class="crosscover-icon-next"></span>'
-});
+$('#mainSlider').css({
+  "background-image": "url('" + slider[0].img + "')"
+})
+
+$('#mainSlider').click(function () {
+  var e = $("#count"), i = +e.val()
+
+  $('#mainSlider').css({
+    "background-image": "url('" + slider[i].img + "')"
+  })
+
+  if (i < (slider.length-1)) {
+    e.val(++i)
+  }
+  else {
+    e.val(0)
+  }
+
+})
+// main slider logic(start)
