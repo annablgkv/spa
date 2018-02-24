@@ -28,3 +28,7 @@ $("#btnCloseMobiMenu").click(function () {
   })
 })
 // nav logic (end)
+
+$('.carousel').carousel({
+  interval: 2000
+})
