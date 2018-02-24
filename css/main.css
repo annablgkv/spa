@@ -211,6 +211,11 @@ nav {
     margin-top: -40px;
     cursor: pointer; }
 
+#mainSlider {
+  height: 700px; }
+  #mainSlider .crosscover {
+    height: 700px; }
+
 #spaLinks {
   padding-top: 30px;
   padding-bottom: 30px;
