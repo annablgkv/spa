@@ -32,6 +32,26 @@ a:hover {
   height: 100%;
   width: 100%; }
 
+.blockTitle {
+  text-align: center; }
+  .blockTitle h4 {
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px; }
+  .blockTitle h1 {
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-bottom: 70px; }
+
 header {
   background: linear-gradient(45deg, #ecbabe 0%, #e0aeb1 35%, #8ac6d0 100%);
   line-height: 36px;
