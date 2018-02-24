@@ -268,28 +268,39 @@ nav {
   #spaLinks .spaLinkBlock3 {
     background-image: url("../img/focus-6.jpg"); }
 
+.mainPageText1 {
+  color: #a3a3a3;
+  text-align: center;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 20px; }
+
+.mainPageText2 {
+  color: #727475;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  padding-bottom: 70px;
+  text-align: center; }
+
+.mainText3 {
+  color: #727475;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  padding-bottom: 20px; }
+
 #spaServices {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: white;
   text-align: center; }
-  #spaServices h4 {
-    color: #a3a3a3;
-    text-align: center;
-    font-size: 17px;
-    line-height: 17px;
-    letter-spacing: 3px;
-    font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 20px; }
-  #spaServices h1 {
-    color: #727475;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: bold;
-    padding-bottom: 70px; }
   #spaServices .spaServicesBlockImg img {
     width: 70px;
     height: 70px; }
@@ -322,13 +333,6 @@ nav {
         font-size: 15px;
         line-height: 15px;
         padding-bottom: 10px; }
-      #spaServices .spaServicesFormsBlock .spaServicesTime h2 {
-        color: #727475;
-        font-family: 'Playfair Display', sans-serif;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 25px;
-        padding-bottom: 20px; }
       #spaServices .spaServicesFormsBlock .spaServicesTime p {
         color: #a3a3a3;
         font-family: 'Open Sans', sans-serif;
@@ -466,7 +470,8 @@ nav {
   background-position: center bottom;
   width: 100%;
   height: 450px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 60px; }
   #spaSaleImg h1 {
     color: #ffffff;
     text-align: center;
@@ -498,6 +503,55 @@ nav {
     text-decoration: none;
     margin-top: 30px;
     text-transform: uppercase; }
+
+#spaBestProducts {
+  padding-bottom: 70px; }
+  #spaBestProducts img {
+    width: 100%;
+    position: center; }
+  #spaBestProducts h2 {
+    margin-top: 30px;
+    text-align: center !important; }
+  #spaBestProducts h3 {
+    color: #8ac6d0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    text-align: center; }
+  #spaBestProducts .specialPrice {
+    color: #ecbabe; }
+
+.statisticShadow {
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  padding-top: 105px;
+  padding-bottom: 85px; }
+
+#spaStatistics {
+  background-image: url("../img/parallax-11-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 60px; }
+  #spaStatistics h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-bottom: 30px; }
+  #spaStatistics h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    font-weight: lighter; }
 
 footer {
   border-top: 1px solid #f1f1f1;
@@ -557,6 +611,9 @@ footer {
     margin-top: 60px; }
     #blockVideo iframe {
       height: 300px; }
+  #spaStatistics h3 {
+    font-size: 11px;
+    line-height: 11px; }
   footer p {
     margin-bottom: 10px; } }
 
@@ -605,6 +662,11 @@ footer {
     font-size: 50px; }
   #spaSaleImg p {
     font-size: 11px; }
+  #spaBestProducts h2 {
+    font-size: 14px;
+    line-height: 14px; }
+  #spaBestProducts h3 {
+    font-size: 12px; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
@@ -663,6 +725,12 @@ footer {
       margin-bottom: 10px; }
     #spaSaleImg p {
       font-size: 11px; }
+  #spaBestProducts h3 {
+    margin-bottom: 20px; }
+  #spaStatistics h3 {
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 30px; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
