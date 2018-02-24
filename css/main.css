@@ -240,6 +240,133 @@ nav {
     height: 100%;
     width: 100%; }
 
+#spaServices {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  text-align: center; }
+  #spaServices h4 {
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px; }
+  #spaServices h1 {
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-bottom: 70px; }
+  #spaServices .spaServicesBlockImg img {
+    width: 70px;
+    height: 70px; }
+  #spaServices .spaServicesBlockImg h3 {
+    padding-top: 25px;
+    color: #727475;
+    text-align: center;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 60px; }
+  #spaServices .spaServicesFormsBlock {
+    background-image: url("../img/video-1.jpg");
+    background-position: center center;
+    background-size: 720px;
+    background-repeat: no-repeat; }
+    #spaServices .spaServicesFormsBlock .spaServicesTime {
+      border: 1px solid #f1f1f1;
+      padding: 40px;
+      background: #fff;
+      text-align: left; }
+      #spaServices .spaServicesFormsBlock .spaServicesTime h5 {
+        color: #ecbabe;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 15px;
+        padding-bottom: 10px; }
+      #spaServices .spaServicesFormsBlock .spaServicesTime h2 {
+        color: #727475;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 25px;
+        padding-bottom: 20px; }
+      #spaServices .spaServicesFormsBlock .spaServicesTime p {
+        color: #a3a3a3;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        line-height: 29px;
+        font-weight: normal;
+        padding-bottom: 30px; }
+      #spaServices .spaServicesFormsBlock .spaServicesTime table {
+        width: 100%; }
+      #spaServices .spaServicesFormsBlock .spaServicesTime .firstDay {
+        border-bottom: 1px solid #eee; }
+      #spaServices .spaServicesFormsBlock .spaServicesTime .workDays {
+        font-size: 13px;
+        line-height: 13px;
+        color: #727475;
+        font-weight: normal;
+        font-family: 'Playfair Display', sans-serif;
+        padding: 15px 10px; }
+      #spaServices .spaServicesFormsBlock .spaServicesTime .workTime {
+        font-size: 13px;
+        line-height: 13px;
+        color: #a3a3a3;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+        padding: 15px 10px; }
+    #spaServices .spaServicesFormsBlock .spaServicesForm {
+      background: #8ac6d0;
+      margin-top: 100px;
+      padding: 20px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm input[type="text"], #spaServices .spaServicesFormsBlock .spaServicesForm input[type="email"] {
+        width: 150px;
+        border: none;
+        border-bottom: 1px solid #f1f1f1;
+        background: none;
+        padding-left: 20px;
+        margin-right: 10px;
+        padding: 10px 20px;
+        padding-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff !important;
+        font-size: 15px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm textarea {
+        border: none;
+        border-bottom: 1px solid #f1f1f1;
+        background: none;
+        padding-left: 22px;
+        padding-top: 25px;
+        font-family: 'Open Sans', sans-serif;
+        color: #f1f1f1;
+        font-size: 15px;
+        width: 315px;
+        margin-bottom: 25px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm input[type="submit"] {
+        border-width: 0px;
+        border-color: #8ac6d0;
+        border-radius: 25px;
+        border-style: solid;
+        padding: 10px 20px;
+        width: 90%;
+        cursor: pointer;
+        font-family: 'Playfair Display', sans-serif;
+        color: #a3a3a3;
+        background-color: #ffffff;
+        font-size: 15px;
+        margin-bottom: 35px; }
+
 #blockSearch {
   background: none;
   border: none;
@@ -292,7 +419,9 @@ footer {
     border-top: none;
     padding-bottom: 30px; }
   #spaLinks .spaLinkBlock {
-    background-position: center center; } }
+    background-position: center center; }
+  #spaServices .spaServicesBlockImg h3 {
+    font-size: 12px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #logo img {
@@ -305,6 +434,16 @@ footer {
     height: 180px; }
     #spaLinks .spaLinkBlock a {
       padding-top: 135px; }
+  #spaServices .spaServicesBlockImg h3 {
+    font-size: 12px; }
+  #spaServices .spaServicesFormsBlock {
+    background: none; }
+    #spaServices .spaServicesFormsBlock .spaServicesForm {
+      margin-top: 0; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm input[type="text"], #spaServices .spaServicesFormsBlock .spaServicesForm input[type="email"] {
+        width: 300px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm textarea {
+        width: 620px; }
   footer p {
     margin-bottom: 10px; } }
 
@@ -319,6 +458,21 @@ footer {
     #spaLinks .spaLinkBlock {
       background-position: center center;
       margin-bottom: 25px; }
+  #spaServices .spaServicesBlockImg h3 {
+    font-size: 10px; }
+  #spaServices .spaServicesBlockImg img {
+    width: 100%;
+    height: auto; }
+  #spaServices .spaServicesFormsBlock {
+    background: none; }
+    #spaServices .spaServicesFormsBlock .spaServicesForm {
+      margin-top: 0; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm input[type="text"], #spaServices .spaServicesFormsBlock .spaServicesForm input[type="email"] {
+        width: 200px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm textarea {
+        width: 420px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm input[type="submit"] {
+        width: 70%; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
@@ -339,6 +493,21 @@ footer {
       margin-bottom: 25px; }
       #spaLinks .spaLinkBlock a {
         padding-top: 115px; }
+  #spaServices .spaServicesBlockImg h3 {
+    font-size: 10px; }
+  #spaServices .spaServicesBlockImg img {
+    width: 100%;
+    height: auto; }
+  #spaServices .spaServicesFormsBlock {
+    background: none; }
+    #spaServices .spaServicesFormsBlock .spaServicesForm {
+      margin-top: 0; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm input[type="text"], #spaServices .spaServicesFormsBlock .spaServicesForm input[type="email"] {
+        width: 200px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm textarea {
+        width: 200px; }
+      #spaServices .spaServicesFormsBlock .spaServicesForm input[type="submit"] {
+        width: 70%; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
