@@ -498,6 +498,35 @@ nav {
   #spaBestProducts .specialPrice {
     color: #ecbabe; }
 
+.statisticShadow {
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  padding-top: 105px;
+  padding-bottom: 85px; }
+
+#spaStatistics {
+  background-image: url("../img/parallax-11-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 60px; }
+  #spaStatistics h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-bottom: 30px; }
+  #spaStatistics h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    font-weight: lighter; }
+
 footer {
   border-top: 1px solid #f1f1f1;
   padding: 15px 0 15px 0;
@@ -556,6 +585,9 @@ footer {
     margin-top: 60px; }
     #blockVideo iframe {
       height: 300px; }
+  #spaStatistics h3 {
+    font-size: 11px;
+    line-height: 11px; }
   footer p {
     margin-bottom: 10px; } }
 
@@ -669,6 +701,10 @@ footer {
       font-size: 11px; }
   #spaBestProducts h3 {
     margin-bottom: 20px; }
+  #spaStatistics h3 {
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 30px; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
