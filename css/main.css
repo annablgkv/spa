@@ -717,7 +717,8 @@ nav {
   color: #8ac6d0; }
 
 #spaLatestNews {
-  margin-bottom: 70px; }
+  padding-top: 70px;
+  padding-bottom: 70px; }
   #spaLatestNews .lotOfTextNews {
     margin-top: 40px; }
   #spaLatestNews h4 {
@@ -752,7 +753,7 @@ nav {
     margin-left: 30px; }
 
 #spaBottom {
-  margin-bottom: 60px; }
+  padding-bottom: 60px; }
   #spaBottom img {
     width: 100%;
     height: 200px;

@@ -391,20 +391,20 @@ nav { //////////////////////////////////////////////////
 }
 
 .primaryBtn{
-    border: 0px solid;
-    border-radius: 25px;
-    line-height: 16px;
-    font-size: 16px;
-    background-color: #ffffff;
-    padding: 15px 25px;
-    color: #a3a3a3;
-    font-family: 'Playfair Display', sans-serif;
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 30px;
-    text-transform: uppercase;
+  border: 0px solid;
+  border-radius: 25px;
+  line-height: 16px;
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 15px 25px;
+  color: #a3a3a3;
+  font-family: 'Playfair Display', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 30px;
+  text-transform: uppercase;
 
-  }
+}
 
 #spaServices {/////////////////////////////////////////
   padding-top: 30px;
@@ -878,7 +878,8 @@ background-position: center center;
   .lotOfTextNews{
     margin-top: 40px;
   }
-  margin-bottom: 70px;
+  padding-top: 70px;  
+  padding-bottom: 70px;
   
   h4{
     font-family: 'Open Sans', sans-serif;
@@ -921,7 +922,7 @@ background-position: center center;
 
 
 #spaBottom{////////////////////////////////////////
-margin-bottom: 60px;
+padding-bottom: 60px;
   img{
   width: 100%;
   height: 200px;
