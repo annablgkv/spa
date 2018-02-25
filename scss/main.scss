@@ -22,27 +22,50 @@ a {
 }
 
 .spaLinkBlock {
-    background-size: cover;
-    height:250px;
-    text-align: center;
-    a {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      color: #fff;
-      letter-spacing: 3px;
-      font-size: 17px;
-      line-height: 17px;
-      text-transform: uppercase;
-      display:block;
-      padding-top: 205px;
-    }
+  background-size: cover;
+  height:250px;
+  text-align: center;
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 17px;
+    line-height: 17px;
+    text-transform: uppercase;
+    display:block;
+    padding-top: 205px;
   }
-  .spaLinkShadows{
-    background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.3));
-    height: 100%;
-    width: 100%;
-  }
+}
+.spaLinkShadows{
+  background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.3));
+  height: 100%;
+  width: 100%;
+}
 
+
+.blockTitle {
+  text-align: center;
+  h4 {
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  h1 {
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-bottom: 70px;
+  }
+}
 
 //////////////////////////////////////////////////
 // блоки
@@ -319,30 +342,43 @@ nav { //////////////////////////////////////////////////
 
 }
 
-#spaServices {/////////////////////////////////////////
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: white;
+.mainPageText1{
+   color: #a3a3a3;
   text-align: center;
-  h4{
-    color: #a3a3a3;
-    text-align: center;
-    font-size: 17px;
-    line-height: 17px;
-    letter-spacing: 3px;
-    font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-  }
-  h1{
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 20px;  
+}
+
+.mainPageText2{
     color: #727475;
     font-family: 'Playfair Display', sans-serif;
     font-size: 40px;
     line-height: 40px;
     font-weight: bold;
     padding-bottom: 70px;
-  }
+    text-align: center;
+}
+.mainText3{
+  color: #727475;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+
+#spaServices {/////////////////////////////////////////
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  text-align: center;
+  
   .spaServicesBlockImg{
     img{
       width: 70px;
@@ -380,14 +416,7 @@ nav { //////////////////////////////////////////////////
         line-height: 15px;
         padding-bottom: 10px;
       }
-      h2{
-        color: #727475;
-        font-family: 'Playfair Display', sans-serif;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 25px;
-        padding-bottom: 20px;
-      }
+     
       p{
         color: #a3a3a3;
         font-family: 'Open Sans', sans-serif;
@@ -533,7 +562,7 @@ nav { //////////////////////////////////////////////////
 }
 
 
-#blockVideo{//////////////////////////////////////////////////
+#blockVideo{ //////////////////////////////////////////////////
   background: none;
   box-shadow: 0 0 10px rgba(0,0,0,0.5); 
   margin-top: 80px;
@@ -549,6 +578,120 @@ nav { //////////////////////////////////////////////////
 }
 
 
+#blockServices { //////////////////////////////////////////////////
+  padding-bottom: 65px;
+  .itemBlockServies {
+    display: flow-root;
+    margin-top: 20px;
+    .procName {
+      position: relative;
+      float: left;
+      width: 50%;
+      p {
+        background: #fff;
+        display: inline;
+        padding-right: 10px;
+        font-size: 17px;
+        line-height: 17px;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+        color: #727475;
+        text-transform: uppercase;                                                          
+      }            
+    }
+    .procPrice {
+      position: relative;
+      float: right;
+      width: 50%;
+      text-align: right;
+      p {
+        background: #fff;
+        display: inline;
+        padding-left: 10px;
+        font-size: 17px;
+        line-height: 17px;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;        
+        color: #727475;                                    
+      }
+    }
+    .procLine {
+      border-bottom: 1px dotted #eee;
+      width: 90%;
+      height: 20px;
+      position: absolute;
+    }
+    .procDesc {
+      position: relative;
+      float: left;
+      width: 80%;
+      p {
+        font-size: 15px;
+        line-height: 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        color: #a3a3a3;
+      }
+    }
+    .procTag {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px;
+      p {
+        background: #fff;
+        border: 1px solid #f1f1f1;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;                                                          
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #a3a3a3;
+      }
+    }
+    .procTagNew1 {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px;
+      p {
+        background: #ecbabe;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;                                                          
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #fff;
+      }
+    }
+    .procTagNew2 {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px;
+      p {
+        background: #8ac6d0;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;                                                          
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
 #spaSaleImg{//////////////////////////////////////////////////
 
   background-image: url('../img/parallax-5.jpg');
@@ -556,6 +699,7 @@ nav { //////////////////////////////////////////////////
   width: 100%;
   height: 450px;
   text-align: center;
+  margin-bottom: 60px;
   h1{
     color: #ffffff;
     text-align: center;
@@ -588,10 +732,71 @@ nav { //////////////////////////////////////////////////
     display: inline-block;
     text-decoration: none;
     margin-top: 30px;
-     text-transform: uppercase;
+    text-transform: uppercase;
 
   }
 }
+
+
+#spaBestProducts{
+  padding-bottom: 70px;
+  img{
+  width: 100%;
+  position: center;
+  
+  }
+  h2{
+    margin-top: 30px;
+    text-align:center !important;
+  }
+  h3{
+    color: #8ac6d0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .specialPrice{
+    color: #ecbabe;
+  }
+}
+
+.statisticShadow{
+  background: rgba(0,0,0,.2);
+  height: 100%;
+  width: 100%;
+  padding-top: 105px;
+   padding-bottom: 85px;
+}
+
+#spaStatistics{ //////////////////////////////////////////////
+background-image: url('../img/parallax-11-1.jpg');
+background-size: cover;
+background-position: center center;
+  h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+    }
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+  }
+}
+
 
 footer {
   border-top: 1px solid #f1f1f1;
@@ -714,6 +919,25 @@ nav { //////////////////////////////////////////////////
 }
 
 
+#blockServices { //////////////////////////////////////////////////
+  .itemBlockServies {
+    .procDesc { 
+      width: 65%;
+    }
+    .procTagNew1, .procTagNew2, .procTag {
+      width: 35%;
+    }
+  }
+}
+
+
+#spaStatistics{ ////////////////////////////////
+h3{
+  font-size: 11px;
+  line-height: 11px;
+}
+}
+
 footer { //////////////////////////////////////////////////
   p {
     margin-bottom: 10px;
@@ -809,6 +1033,16 @@ nav { //////////////////////////////////////////////////
   p{
     font-size: 11px;
   }
+}
+
+#spaBestProducts{ //////////////////////////////////////////////////
+h2{
+  font-size: 14px;
+  line-height: 14px;
+}
+h3{
+  font-size: 12px;
+}
 }
 
 footer { //////////////////////////////////////////////////
@@ -908,6 +1142,18 @@ nav { //////////////////////////////////////////////////
   }
 }
 
+#blockServices { //////////////////////////////////////////////////
+  .itemBlockServies {
+    .procDesc { 
+      width: 65%;
+    }
+    .procTagNew1, .procTagNew2, .procTag {
+      width: 35%;
+    }
+  }
+}
+
+
 #spaSaleImg{
   height: 400px;
   h1{
@@ -918,6 +1164,21 @@ nav { //////////////////////////////////////////////////
   p{
     font-size: 11px;
   }
+}
+
+#spaBestProducts{ //////////////////////////////////////////////////
+h3{
+  margin-bottom: 20px;
+}
+}
+
+
+#spaStatistics{ ////////////////////////////////
+h3{
+  font-size: 11px;
+  line-height: 11px;
+  margin-bottom: 30px;
+}
 }
 
 footer { //////////////////////////////////////////////////
