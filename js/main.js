@@ -67,6 +67,28 @@ $('#mainSlider').click(function () {
 // main slider logic(end)
 
 
+
+
+// feedbackSlider logic (start)
+$('.feedbackGoSlide1').click(function () {
+  $('.feedbackSlide2').hide()
+  $('.feedbackGoSlide2').removeClass('active')
+  $('.feedbackGoSlide1').addClass('active')  
+  $('.feedbackSlide1').show()
+})
+
+$('.feedbackGoSlide2').click(function () {
+  $('.feedbackSlide1').hide()
+  $('.feedbackGoSlide1').removeClass('active')
+  $('.feedbackGoSlide2').addClass('active')
+  $('.feedbackSlide2').show()
+})
+// feedbackSlider logic (end)
+
+
+
+
+
 // blockServices dataset (start)
 var dataServices = [
   {
@@ -149,9 +171,5 @@ for (var i = 4; i < 8; i++) {
     '<div class="procTag' + dataServices[i].classTag + ' dontTouchMe"><p>' + dataServices[i].tag + '</p></div>' +
     '</div>'
 }
-
-
-
-
 // blockServices dataset (end)
 
