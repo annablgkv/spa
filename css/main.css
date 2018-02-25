@@ -568,6 +568,53 @@ nav {
     width: 100%;
     margin-left: 30px; }
 
+#spaBottom {
+  margin-bottom: 60px; }
+  #spaBottom img {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  #spaBottom h3 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    line-height: 20px; }
+  #spaBottom p {
+    font-size: 14px; }
+  #spaBottom .products {
+    height: 95px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px; }
+    #spaBottom .products img {
+      width: 90px;
+      height: 90px;
+      position: relative;
+      float: left;
+      margin: 0;
+      padding-top: 10px; }
+    #spaBottom .products .description {
+      position: relative;
+      float: left;
+      padding-top: 20px;
+      padding-left: 20px; }
+      #spaBottom .products .description h2 {
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0px;
+        color: #727475;
+        font-family: 'Playfair Display', sans-serif; }
+      #spaBottom .products .description h4 {
+        line-height: 29px;
+        font-family: 'Open Sans', sans-serif;
+        color: #a3a3a3;
+        font-size: 13px;
+        font-weight: lighter;
+        letter-spacing: 3px; }
+
 footer {
   border-top: 1px solid #f1f1f1;
   padding: 15px 0 15px 0;
@@ -635,6 +682,10 @@ footer {
     margin-top: 0px; }
   #spaLatestNews .spaLinkBlock2 {
     margin-left: 0px; }
+  #spaBottom {
+    text-align: center; }
+    #spaBottom img {
+      height: 400px; }
   footer p {
     margin-bottom: 10px; } }
 
@@ -695,6 +746,10 @@ footer {
     margin-right: 0px; }
   #spaLatestNews .spaLinkBlock2 {
     margin-left: 0px; }
+  #spaBottom {
+    text-align: center; }
+    #spaBottom img {
+      height: 300px; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
@@ -768,6 +823,8 @@ footer {
   #spaLatestNews .spaLinkBlock2 {
     margin-left: 0px;
     height: 200px; }
+  #spaBottom {
+    text-align: center; }
   footer p {
     margin-bottom: 10px; }
   footer a i {

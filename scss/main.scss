@@ -702,6 +702,66 @@ h3{
 }
 
 
+#spaBottom{////////////////////////////////////////
+margin-bottom: 60px;
+  img{
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+h3{
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: #727475;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+p{
+  font-size: 14px;
+}
+.products{
+  height: 95px;
+  width: 100%;  
+  position: relative;
+  margin-bottom: 15px;
+  
+
+  img{
+    width: 90px;
+    height: 90px;
+    position: relative;    
+    float: left;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .description{
+    position: relative;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    h2{
+      font-size: 17px;
+      font-weight: normal;
+      letter-spacing: 0px;
+      color: #727475;
+      font-family: 'Playfair Display', sans-serif;
+    }
+    h4{
+      line-height: 29px;
+      font-family: 'Open Sans', sans-serif;
+      color: #a3a3a3;
+      font-size: 13px;
+      font-weight: lighter;
+      letter-spacing: 3px;
+    }
+  }
+}
+
+}
+
+
 footer {
   border-top: 1px solid #f1f1f1;
   padding: 15px 0 15px 0;
@@ -845,6 +905,15 @@ h3{
   }
 }
 
+
+#spaBottom{///////////////////////////////////
+text-align: center;
+  img{
+  height: 400px;
+}
+
+}
+
 footer { //////////////////////////////////////////////////
   p {
     margin-bottom: 10px;
@@ -964,6 +1033,15 @@ h3{
  .spaLinkBlock2{
    margin-left: 0px;
  }
+
+}
+
+
+#spaBottom{///////////////////////////////////
+text-align: center;
+  img{
+  height: 300px;
+}
 
 }
 
@@ -1106,6 +1184,13 @@ h3{
    margin-left: 0px;
     height: 200px;
  }
+
+}
+
+
+#spaBottom{///////////////////////////////////
+text-align: center;
+
 
 }
 
