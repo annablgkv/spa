@@ -562,7 +562,7 @@ nav { //////////////////////////////////////////////////
 }
 
 
-#blockVideo{//////////////////////////////////////////////////
+#blockVideo{ //////////////////////////////////////////////////
   background: none;
   box-shadow: 0 0 10px rgba(0,0,0,0.5); 
   margin-top: 80px;
@@ -574,6 +574,120 @@ nav { //////////////////////////////////////////////////
     margin-left: 780px;
     margin-top: -30px;
     color: #fff;
+  }
+}
+
+
+#blockServices { //////////////////////////////////////////////////
+  padding-bottom: 65px;
+  .itemBlockServies {
+    display: flow-root;
+    margin-top: 20px;
+    .procName {
+      position: relative;
+      float: left;
+      width: 50%;
+      p {
+        background: #fff;
+        display: inline;
+        padding-right: 10px;
+        font-size: 17px;
+        line-height: 17px;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+        color: #727475;
+        text-transform: uppercase;                                                          
+      }            
+    }
+    .procPrice {
+      position: relative;
+      float: right;
+      width: 50%;
+      text-align: right;
+      p {
+        background: #fff;
+        display: inline;
+        padding-left: 10px;
+        font-size: 17px;
+        line-height: 17px;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;        
+        color: #727475;                                    
+      }
+    }
+    .procLine {
+      border-bottom: 1px dotted #eee;
+      width: 90%;
+      height: 20px;
+      position: absolute;
+    }
+    .procDesc {
+      position: relative;
+      float: left;
+      width: 80%;
+      p {
+        font-size: 15px;
+        line-height: 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        color: #a3a3a3;
+      }
+    }
+    .procTag {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px;
+      p {
+        background: #fff;
+        border: 1px solid #f1f1f1;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;                                                          
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #a3a3a3;
+      }
+    }
+    .procTagNew1 {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px;
+      p {
+        background: #ecbabe;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;                                                          
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #fff;
+      }
+    }
+    .procTagNew2 {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px;
+      p {
+        background: #8ac6d0;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;                                                          
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #fff;
+      }
+    }
   }
 }
 
@@ -662,26 +776,25 @@ nav { //////////////////////////////////////////////////
 background-image: url('../img/parallax-11-1.jpg');
 background-size: cover;
 background-position: center center;
-margin-bottom: 60px;
-h2{
-  text-align: center;
-  color: #ffffff;
-  font-size: 50px;
-  font-family: 'Playfair Display', sans-serif;
-  font-weight: bolder;
-  line-height: 30px;
-  margin-bottom: 30px;
+  h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-bottom: 30px;
 
+    }
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    font-weight: lighter;
   }
-h3{
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffff;
-  text-align: center;
-  font-size: 13px;
-  line-height: 13px;
-  letter-spacing: 3px;
-  font-weight: lighter;
-}
 }
 
 
@@ -802,6 +915,18 @@ nav { //////////////////////////////////////////////////
   margin-top: 60px;
   iframe{
     height: 300px;
+  }
+}
+
+
+#blockServices { //////////////////////////////////////////////////
+  .itemBlockServies {
+    .procDesc { 
+      width: 65%;
+    }
+    .procTagNew1, .procTagNew2, .procTag {
+      width: 35%;
+    }
   }
 }
 
