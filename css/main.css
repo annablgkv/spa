@@ -818,6 +818,10 @@ footer {
     margin-top: 100px; }
     #blockVideo iframe {
       height: 220px; }
+  #blockServices .itemBlockServies .procDesc {
+    width: 65%; }
+  #blockServices .itemBlockServies .procTagNew1, #blockServices .itemBlockServies .procTagNew2, #blockServices .itemBlockServies .procTag {
+    width: 35%; }
   #spaSaleImg {
     height: 400px; }
     #spaSaleImg h1 {

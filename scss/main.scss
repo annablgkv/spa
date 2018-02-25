@@ -1142,6 +1142,18 @@ nav { //////////////////////////////////////////////////
   }
 }
 
+#blockServices { //////////////////////////////////////////////////
+  .itemBlockServies {
+    .procDesc { 
+      width: 65%;
+    }
+    .procTagNew1, .procTagNew2, .procTag {
+      width: 35%;
+    }
+  }
+}
+
+
 #spaSaleImg{
   height: 400px;
   h1{
