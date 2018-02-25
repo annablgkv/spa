@@ -399,6 +399,14 @@ nav {
         font-size: 15px;
         margin-bottom: 35px; }
 
+#feedbackSlider {
+  background-image: url("../img/parallax-6.jpg");
+  background-size: cover;
+  background-position: center bottom; }
+  #feedbackSlider .shadow {
+    background: rgba(0, 0, 0, 0.2);
+    height: 600px; }
+
 #blockSearch {
   background: none;
   border: none;
