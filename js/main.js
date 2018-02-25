@@ -173,3 +173,7 @@ for (var i = 4; i < 8; i++) {
 }
 // blockServices dataset (end)
 
+
+// block Contact bg (start)
+$('#blockContact').parallax({ imageSrc: './img/parallax-3.jpg', speed: 0.7 })
+// block Contact bg (end)
