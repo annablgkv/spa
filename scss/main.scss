@@ -923,7 +923,7 @@ background-position: center center;
 }
 
 
-#blockContact {
+#blockContact { ///////////////////////////////////
   background: transparent;
   .shadow {
     background: rgba(0,0,0,.2);
@@ -1197,6 +1197,16 @@ nav { //////////////////////////////////////////////////
   }
 }
 
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+}
+
 } // end! media Large devices (desktops, 992px and up)
 /////////////////////////////////////////////////
 // Medium devices (tablets, 768px and up)
@@ -1291,6 +1301,16 @@ nav { //////////////////////////////////////////////////
   }
   .spaLinkBlock2{
     margin-left: 0px;
+  }
+}
+
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
   }
 }
 
@@ -1439,6 +1459,20 @@ h3{
    margin-left: 0px;
  }
 
+}
+
+
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
+    p {
+      font-size: 12px;
+    }
+  }
 }
 
 
@@ -1635,11 +1669,22 @@ h3{
 
 }
 
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
 
 #spaBottom{///////////////////////////////////
-text-align: center;
-
-
+  text-align: center;
 }
 
 
