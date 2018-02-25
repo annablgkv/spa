@@ -296,6 +296,38 @@ nav {
   line-height: 25px;
   padding-bottom: 20px; }
 
+.mainPageText5 {
+  color: #ecbabe;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 15px;
+  padding-bottom: 10px; }
+
+.mainPageOrdinaryText {
+  color: #a3a3a3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 29px;
+  font-weight: normal;
+  padding-bottom: 30px; }
+
+.primaryBtn {
+  border: 0px solid;
+  border-radius: 25px;
+  line-height: 16px;
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 15px 25px;
+  color: #a3a3a3;
+  font-family: 'Playfair Display', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 30px;
+  text-transform: uppercase; }
+
 #spaServices {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -324,22 +356,6 @@ nav {
       padding: 40px;
       background: #fff;
       text-align: left; }
-      #spaServices .spaServicesFormsBlock .spaServicesTime h5 {
-        color: #ecbabe;
-        letter-spacing: 3px;
-        font-weight: bold;
-        font-family: 'Open Sans', sans-serif;
-        text-transform: uppercase;
-        font-size: 15px;
-        line-height: 15px;
-        padding-bottom: 10px; }
-      #spaServices .spaServicesFormsBlock .spaServicesTime p {
-        color: #a3a3a3;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 15px;
-        line-height: 29px;
-        font-weight: normal;
-        padding-bottom: 30px; }
       #spaServices .spaServicesFormsBlock .spaServicesTime table {
         width: 100%; }
       #spaServices .spaServicesFormsBlock .spaServicesTime .firstDay {
@@ -648,19 +664,6 @@ nav {
     font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase; }
-  #spaSaleImg a {
-    border: 0px solid;
-    border-radius: 25px;
-    line-height: 16px;
-    font-size: 16px;
-    background-color: #ffffff;
-    padding: 15px 25px;
-    color: #a3a3a3;
-    font-family: 'Playfair Display', sans-serif;
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 30px;
-    text-transform: uppercase; }
 
 #spaBestProducts {
   padding-bottom: 70px; }
@@ -710,6 +713,91 @@ nav {
     letter-spacing: 3px;
     font-weight: lighter; }
 
+#blueText {
+  color: #8ac6d0; }
+
+#spaLatestNews {
+  margin-bottom: 70px; }
+  #spaLatestNews .lotOfTextNews {
+    margin-top: 40px; }
+  #spaLatestNews h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    margin-bottom: 30px; }
+  #spaLatestNews a {
+    margin-top: -45px;
+    background-color: #ecbabe;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 8px 12px; }
+  #spaLatestNews .blueBtn {
+    background-color: #8ac6d0; }
+  #spaLatestNews .spaLinkBlock1 {
+    background-image: url("../img/blog-1-1024x576.jpg");
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center center;
+    margin-right: 30px; }
+  #spaLatestNews .spaLinkBlock2 {
+    background-image: url("../img/blog-2-1024x576.jpg");
+    height: 300px;
+    background-position: center center;
+    width: 100%;
+    margin-left: 30px; }
+
+#spaBottom {
+  margin-bottom: 60px; }
+  #spaBottom img {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  #spaBottom h3 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    line-height: 20px; }
+  #spaBottom p {
+    font-size: 14px; }
+  #spaBottom .products {
+    height: 95px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px; }
+    #spaBottom .products img {
+      width: 90px;
+      height: 90px;
+      position: relative;
+      float: left;
+      margin: 0;
+      padding-top: 10px; }
+    #spaBottom .products .description {
+      position: relative;
+      float: left;
+      padding-top: 20px;
+      padding-left: 20px; }
+      #spaBottom .products .description h2 {
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0px;
+        color: #727475;
+        font-family: 'Playfair Display', sans-serif; }
+      #spaBottom .products .description h4 {
+        line-height: 29px;
+        font-family: 'Open Sans', sans-serif;
+        color: #a3a3a3;
+        font-size: 13px;
+        font-weight: lighter;
+        letter-spacing: 3px; }
+
 footer {
   border-top: 1px solid #f1f1f1;
   padding: 15px 0 15px 0;
@@ -736,7 +824,9 @@ footer {
   #spaLinks .spaLinkBlock {
     background-position: center center; }
   #spaServices .spaServicesBlockImg h3 {
-    font-size: 12px; } }
+    font-size: 12px; }
+  #spaLatestNews .spaLinkBlock2 {
+    margin-left: 0px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #logo img {
@@ -775,6 +865,14 @@ footer {
   #spaStatistics h3 {
     font-size: 11px;
     line-height: 11px; }
+  #spaLatestNews .lotOfTextNews {
+    margin-top: 0px; }
+  #spaLatestNews .spaLinkBlock2 {
+    margin-left: 0px; }
+  #spaBottom {
+    text-align: center; }
+    #spaBottom img {
+      height: 400px; }
   footer p {
     margin-bottom: 10px; } }
 
@@ -828,6 +926,17 @@ footer {
     line-height: 14px; }
   #spaBestProducts h3 {
     font-size: 12px; }
+  #spaLatestNews .lotOfTextNews {
+    text-align: center;
+    margin-bottom: 30px; }
+  #spaLatestNews .spaLinkBlock1 {
+    margin-right: 0px; }
+  #spaLatestNews .spaLinkBlock2 {
+    margin-left: 0px; }
+  #spaBottom {
+    text-align: center; }
+    #spaBottom img {
+      height: 300px; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
@@ -904,6 +1013,17 @@ footer {
     font-size: 11px;
     line-height: 11px;
     margin-bottom: 30px; }
+  #spaLatestNews .lotOfTextNews {
+    text-align: center;
+    margin-bottom: 30px; }
+  #spaLatestNews .spaLinkBlock1 {
+    margin-right: 0px;
+    height: 200px; }
+  #spaLatestNews .spaLinkBlock2 {
+    margin-left: 0px;
+    height: 200px; }
+  #spaBottom {
+    text-align: center; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
