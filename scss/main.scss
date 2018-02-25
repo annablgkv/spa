@@ -880,7 +880,7 @@ background-position: center center;
     margin-top: 40px;
   }
   padding-top: 70px;  
-  padding-bottom: 70px;
+  
   
   h4{
     font-family: 'Open Sans', sans-serif;
@@ -935,6 +935,7 @@ background-position: center center;
 
 #spaBottom{////////////////////////////////////////
 padding-bottom: 60px;
+padding-top: 70px;
   img{
   width: 100%;
   height: 200px;
@@ -1013,6 +1014,63 @@ footer {
     }    
   }
 }
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+// page about
+#textAboutPage {/////////////////////////////////////////////////
+  padding-top: 70px;
+  padding-bottom: 70px;
+  h2 {
+    color: #727475;
+    text-align: right;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: 'Playfair Display', sans-serif;
+  }
+  p {
+    color: #a3a3a3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 0px;
+    font-weight: normal;
+    padding-top: 30px;
+  }
+}
+
+#imgVideoAboutPage {
+ padding-bottom: 60px;
+  .spaLinkImg {
+    background-image: url('../img/parallax-4.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    
+    a {
+      padding: 0; 
+      
+    }
+    img {
+      width: 95px;
+      height: 95px;
+      position: absolute;
+      top: 50%;
+      margin-top: -47px;
+      left: 50%;
+      margin-left: -47px;
+    
+    }
+  }
+}
+
+
+
+
 
 
 //////////////////////////////////////////////////
@@ -1132,7 +1190,8 @@ nav { //////////////////////////////////////////////////
 
 
 #spaStatistics{ ////////////////////////////////
-h3{
+
+  h3{
   font-size: 11px;
   line-height: 11px;
 }
@@ -1154,8 +1213,24 @@ text-align: center;
   img{
   height: 400px;
 }
-
 }
+
+
+#textAboutPage{
+  text-align: center;
+  h2{
+    text-align: center;
+  }
+}
+
+
+#imgVideoAboutPage{
+  .spaLinkImg{
+    width: 100%;
+    height: 450px;
+  }
+}
+
 
 footer { //////////////////////////////////////////////////
   p {
@@ -1286,6 +1361,22 @@ text-align: center;
   height: 300px;
 }
 
+}
+
+
+#textAboutPage{
+  text-align: center;
+  h2{
+    text-align: center;
+  }
+}
+
+
+#imgVideoAboutPage{
+  .spaLinkImg{
+    width: 100%;
+    height: 450px;
+  }
 }
 
 
@@ -1462,6 +1553,29 @@ h3{
 text-align: center;
 
 
+}
+
+
+
+#textAboutPage{
+  text-align: center;
+  h2{
+    text-align: center;
+    font-size: 23px;
+    line-height: 20px;
+  }
+  p{
+    font-size: 13px;
+    line-height: 17px;
+  }
+}
+
+
+#imgVideoAboutPage{
+  .spaLinkImg{
+    width: 100%;
+    height: 250px;
+  }
 }
 
 
