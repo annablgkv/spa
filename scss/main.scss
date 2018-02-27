@@ -21,6 +21,7 @@ a {
   }
 }
 
+
 .spaLinkBlock {
   background-size: cover;
   height:250px;
@@ -318,11 +319,88 @@ nav { //////////////////////////////////////////////////
 }
 
 
-#mainSlider { //////////////////////////////////////////////////
-  height: 600px;
+#mainSlider { ////////////////////////////////////////////////// 
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  .shadow {
+    background: rgba(0,0,0,.2);
+    height: 600px;
+  }
+  #mainSliderShow {
+    width: 600px;
+    height: 100%;    
+    margin: auto;
+  }
+  .mainSliderView {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin-top: 150px;
+    text-align: center;
+    p {
+      font-size: 13px;
+      line-height: 13px;
+      font-weight: 400;
+      color: rgb(255, 255, 255);
+      font-family: "Open Sans";
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 65px;
+      line-height: 85px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      font-family: "Playfair Display";
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+    a {
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 400;
+      color: rgb(163, 163, 163);
+      font-family: "Playfair Display";
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(255, 255, 255);
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 25px;
+      text-transform: uppercase;
+      padding: 15px 25px;  
+      transition: .3s; 
+      &:hover {
+        color: #fff;
+        background: none;
+      } 
+    }
+  }
+  #mainSliderPrev {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 100%;
+    line-height: 600px;    
+    text-align: right;
+  }
+  #mainSliderNext {
+    position: relative;
+    float: right;
+    width: 50px;    
+    height: 100%;
+    line-height: 600px;
+    text-align: left;    
+  }
+  i {
+    font-size: 36px;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+    &:hover {
+      color: rgba(255,255,255,.5);
+    }
+  }
 }
 
 
@@ -878,8 +956,9 @@ background-position: center center;
   .lotOfTextNews{
     margin-top: 40px;
   }
-  padding-top: 70px;  
-  
+  padding-top: 70px;
+  padding-bottom: 70px;  
+    
   
   h4{
     font-family: 'Open Sans', sans-serif;
@@ -919,6 +998,103 @@ background-position: center center;
     
   }
 }
+
+
+#blockContact { ///////////////////////////////////
+  background: transparent;
+  .shadow {
+    background: rgba(0,0,0,.2);
+  }
+  .formContact {
+    background: #fff;
+    padding: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;    
+    h1 {
+      font-size: 25px;
+      line-height: 25px;
+      font-family: 'Playfair Display', sans-serif;
+      color: #727475;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 25px;
+      font-family: 'Open Sans', sans-serif;
+      color: #a3a3a3;
+      margin-bottom: 25px;      
+    }
+    form {
+      text-align: center;
+    }
+    input[type="email"] {
+      outline: 0;
+      border: 1px solid #f1f1f1;
+      font-size: 15px;
+      line-height: 29px;
+      font-family: 'Open Sans', sans-serif;
+      border-top-width: 0px;
+      border-left-width: 0px;
+      border-right-width: 0px;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      width: 100%;
+      margin-bottom: 20px;      
+    }
+    input[type="submit"] {
+      background-color: #8ac6d0;
+      border-radius: 25px;
+      padding: 10px 20px;
+      color: #ffffff;
+      font-family: 'Playfair Display', sans-serif;
+      font-size: 15px;
+      border: none;
+    }
+  }
+  .itemContact {
+    text-align: center;
+    margin-top: 225px;
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: 3px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    p {
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+      line-height: 25px;
+      font-family: 'Open Sans', sans-serif;      
+      font-weight: 300;
+      margin-bottom: 30px;      
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    a {
+      display: block;
+      line-height: 10px;
+      font-size: 10px;
+      padding: 5px;
+      color: #fff;
+      text-transform: uppercase;      
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      letter-spacing: 3px;
+      text-decoration: underline;
+      margin-top: 15px;      
+    }
+  }
+}
+
+
 
 
 #spaBottom{////////////////////////////////////////
@@ -1098,6 +1274,16 @@ nav { //////////////////////////////////////////////////
   }
 }
 
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+}
+
 } // end! media Large devices (desktops, 992px and up)
 /////////////////////////////////////////////////
 // Medium devices (tablets, 768px and up)
@@ -1195,6 +1381,16 @@ nav { //////////////////////////////////////////////////
   }
 }
 
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+}
+
 
 #spaBottom{///////////////////////////////////
 text-align: center;
@@ -1242,6 +1438,37 @@ footer { //////////////////////////////////////////////////
 nav { //////////////////////////////////////////////////
   border-top: none;
   padding-bottom: 30px;
+}
+
+
+#mainSlider { //////////////////////////////////////////////////
+  .shadow {
+    background: rgba(0,0,0,.2);
+    height: 400px;
+  }
+  #mainSliderShow {
+    width: 400px;
+  }
+  .mainSliderView {
+    width: 400px;
+    p {
+      font-size: 11px;
+      line-height: 11px;
+    }
+    h1 {
+      font-size: 26px;
+      line-height: 26px;
+    }
+    a {
+      font-size: 14px;
+      line-height: 14px;
+      border-radius: 25px;      
+      padding: 10px 15px;        
+    }
+  }
+  #mainSliderPrev, #mainSliderNext {
+    line-height: 400px;    
+  }
 }
 
 
@@ -1343,6 +1570,20 @@ h3{
 }
 
 
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+
 #spaBottom{///////////////////////////////////
 text-align: center;
   img{
@@ -1394,6 +1635,42 @@ footer { //////////////////////////////////////////////////
 nav { //////////////////////////////////////////////////
   border-top: none;
   padding-bottom: 30px;
+}
+
+
+#mainSlider { //////////////////////////////////////////////////
+  .shadow {
+    background: rgba(0,0,0,.2);
+    height: 300px;
+  }
+  #mainSliderShow {
+    width: 250px;
+  }
+  .mainSliderView {
+    width: 250px;
+    margin-top: 80px;    
+    p {
+      font-size: 11px;
+      line-height: 11px;
+    }
+    h1 {
+      font-size: 26px;
+      line-height: 26px;
+    }
+    a {
+      font-size: 14px;
+      line-height: 14px;
+      border-radius: 25px;      
+      padding: 10px 15px;        
+    }
+  }
+  #mainSliderPrev, #mainSliderNext {
+    line-height: 550px;
+    width: 25px;    
+  }
+  i {
+    font-size: 26px;
+  }
 }
 
 
@@ -1536,11 +1813,22 @@ h3{
 
 }
 
+#blockContact { ///////////////////////////////////
+  .formContact {
+    margin-bottom: 50px;
+  }
+  .itemContact {
+    margin-bottom: 100px;
+    margin-top: 0px;
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
 
 #spaBottom{///////////////////////////////////
-text-align: center;
-
-
+  text-align: center;
 }
 
 
