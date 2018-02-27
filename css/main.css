@@ -1245,6 +1245,69 @@ footer {
   #shopMain .bottomItem {
     margin-top: 30px; }
 
+.pageHeadServicesPage {
+  background-image: url("../img/parallax-5.jpg");
+  background-position: center bottom; }
+
+#mattEffect {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: left; }
+  #mattEffect .mattItem {
+    margin-bottom: 30px; }
+  #mattEffect img {
+    height: 70px; }
+  #mattEffect h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold; }
+  #mattEffect a {
+    margin-top: -45px;
+    border: 1px solid #f1f1f1;
+    color: #a3a3a3;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 8px 12px;
+    text-transform: uppercase; }
+
+#articlesBlock {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #articlesBlock img {
+    width: 100%;
+    margin-bottom: 20px; }
+  #articlesBlock h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: normal; }
+  #articlesBlock h5 {
+    color: #a3a3a3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  #articlesBlock a {
+    margin-top: -45px;
+    background-color: #8ac6d0;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 8px 12px;
+    text-transform: uppercase; }
+  #articlesBlock .articleItem {
+    margin-bottom: 30px; }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #logo img {
     padding-bottom: 25px; }
@@ -1635,6 +1698,12 @@ footer {
     font-size: 25px; }
   #treatments p {
     font-size: 14px; }
+<<<<<<< HEAD
+  #mattEffect p {
+    font-size: 12px; }
+  #mattEffect h2 {
+    font-size: 25px; }
+=======
   #blockImages .blockImagesItemMini {
     width: 100%;
     height: 40%; }
@@ -1651,6 +1720,7 @@ footer {
       margin-top: 10px; }
     #blockImages .blockImagesItem p {
       font-size: 9px; }
+>>>>>>> master
   footer p {
     margin-bottom: 10px; }
   footer a i {

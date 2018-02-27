@@ -1545,6 +1545,84 @@ footer {
     margin-top: 30px;
   }
 }
+
+//page services
+
+.pageHeadServicesPage{
+  background-image: url('../img/parallax-5.jpg');
+  background-position: center bottom;
+}
+#mattEffect{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: left;
+  .mattItem{
+    margin-bottom: 30px;
+  }
+  img{
+    height: 70px;
+  }
+  h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  a{
+    margin-top: -45px;
+    border: 1px solid #f1f1f1;
+    color: #a3a3a3;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 8px 12px;
+    text-transform: uppercase;
+  }
+}
+
+#articlesBlock{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  img{
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+  h2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #727475;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: normal;
+}
+h5{
+  color: #a3a3a3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+a{
+  margin-top: -45px;
+  background-color: #8ac6d0;
+  color: white;
+  border-radius: 20px;
+  font-size: 13px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+.articleItem{
+  margin-bottom: 30px;
+}
+}
+
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2359,6 +2437,18 @@ h5{
     } 
   }
 }
+
+
+#mattEffect{
+  p{
+    font-size: 12px;
+  }
+  h2{
+    font-size: 25px;
+  }
+}
+
+
 
 
 footer { //////////////////////////////////////////////////
