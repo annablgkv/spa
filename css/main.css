@@ -1179,7 +1179,7 @@ footer {
       outline: 0;
       transition: 1s; }
     #blockImages .blockImagesItemBig img {
-      height: 540px;
+      height: 100%;
       transition: all 2s ease-out; }
     #blockImages .blockImagesItemBig:hover > img {
       transform: scale(1.2) rotate(5deg); }
@@ -1430,7 +1430,28 @@ footer {
   footer p {
     margin-bottom: 10px; }
   footer a i {
-    padding: 0 15px 0 15px; } }
+    padding: 0 15px 0 15px; }
+  #blockImages .blockImagesItemMini {
+    width: 105px;
+    height: 105px; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 30px;
+      font-size: 12px;
+      line-height: 12px; }
+    #blockImages .blockImagesItemMini a {
+      font-size: 9px;
+      line-height: 9px; }
+  #blockImages .blockImagesItemBig {
+    width: 240px;
+    height: 240px; }
+    #blockImages .blockImagesItemBig p {
+      padding-top: 100px; }
+  #blockImages .blockImagesItem {
+    height: 125px; }
+    #blockImages .blockImagesItem img {
+      margin-top: 10px; }
+    #blockImages .blockImagesItem p {
+      font-size: 9px; } }
 
 @media (max-width: 575.98px) {
   #logo img {
@@ -1580,6 +1601,27 @@ footer {
     font-size: 25px; }
   #treatments p {
     font-size: 14px; }
+  #blockImages .blockImagesItemMini {
+    width: 105px;
+    height: 105px; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 30px;
+      font-size: 12px;
+      line-height: 12px; }
+    #blockImages .blockImagesItemMini a {
+      font-size: 9px;
+      line-height: 9px; }
+  #blockImages .blockImagesItemBig {
+    width: 240px;
+    height: 240px; }
+    #blockImages .blockImagesItemBig p {
+      padding-top: 100px; }
+  #blockImages .blockImagesItem {
+    height: 125px; }
+    #blockImages .blockImagesItem img {
+      margin-top: 10px; }
+    #blockImages .blockImagesItem p {
+      font-size: 9px; }
   footer p {
     margin-bottom: 10px; }
   footer a i {
