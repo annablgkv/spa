@@ -1719,6 +1719,34 @@ footer { //////////////////////////////////////////////////
 }
 
 
+// page Gallery
+#blockImages {
+  .blockImagesItemMini {
+    width: 150px;
+    height: 150px;
+    p {
+      padding-top: 50px;
+    }
+  }
+  .blockImagesItemBig {
+    width: 330px;
+    height: 330px;
+    p {
+      padding-top: 150px;
+    }
+  }
+  .blockImagesItem {
+    height: 125px;
+    img {
+      margin-top: 10px;
+    } 
+  }
+}
+
+
+
+
+
 
 } // end! media Medium devices (tablets, 768px and up)
 ///////////////////////////////////////////////////
