@@ -1227,7 +1227,17 @@ footer {
     margin-bottom: 50px; }
   #blockContact .itemContact {
     margin-bottom: 100px;
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  #blockImages .blockImagesItemMini {
+    width: 210px;
+    height: 210px; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 80px; }
+  #blockImages .blockImagesItemBig {
+    width: 450px;
+    height: 450px; }
+    #blockImages .blockImagesItemBig p {
+      padding-top: 200px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #logo img {

@@ -1558,6 +1558,25 @@ nav { //////////////////////////////////////////////////
   }
 }
 
+
+// page Gallery
+#blockImages {
+  .blockImagesItemMini {
+    width: 210px;
+    height: 210px;
+    p {
+      padding-top: 80px;
+    }
+  }
+  .blockImagesItemBig {
+    width: 450px;
+    height: 450px;
+    p {
+      padding-top: 200px;
+    }
+  } 
+}
+
 } // end! media Large devices (desktops, 992px and up)
 /////////////////////////////////////////////////
 // Medium devices (tablets, 768px and up)
