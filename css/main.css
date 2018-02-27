@@ -1483,7 +1483,9 @@ footer {
   #blockImages .blockImagesItem {
     height: 125px; }
     #blockImages .blockImagesItem img {
-      margin-top: 10px; } }
+      margin-top: 10px; }
+  #pageContact .map-frame {
+    margin-top: 40px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   #logo img {
@@ -1623,7 +1625,9 @@ footer {
     #blockImages .blockImagesItem img {
       margin-top: 10px; }
     #blockImages .blockImagesItem p {
-      font-size: 9px; } }
+      font-size: 9px; }
+  #pageContact .map-frame {
+    margin-top: 40px; } }
 
 @media (max-width: 575.98px) {
   #logo img {
@@ -1796,4 +1800,8 @@ footer {
   footer p {
     margin-bottom: 10px; }
   footer a i {
-    padding: 0 15px 0 15px; } }
+    padding: 0 15px 0 15px; }
+  #pageContact .map-frame {
+    margin-top: 40px; }
+  #pageContact .phone p {
+    font-size: 30px; } }

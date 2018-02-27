@@ -1949,8 +1949,13 @@ footer { //////////////////////////////////////////////////
 }
 
 
-
-
+//////////////////////////////////////////////////////
+// page Contact
+#pageContact {
+  .map-frame {
+    margin-top: 40px;
+  }
+}
 
 
 } // end! media Medium devices (tablets, 768px and up)
@@ -2222,6 +2227,16 @@ footer { //////////////////////////////////////////////////
     } 
   }
 }
+
+
+//////////////////////////////////////////////////////
+// page Contact
+#pageContact {
+  .map-frame {
+    margin-top: 40px;
+  }
+}
+
 
 
 } // end! media Small devices (landscape phones, 576px and up)
@@ -2542,8 +2557,6 @@ h5{
 }
 
 
-
-
 footer { //////////////////////////////////////////////////
   p {
     margin-bottom: 10px;
@@ -2553,6 +2566,21 @@ footer { //////////////////////////////////////////////////
       padding: 0 15px 0 15px;
     }
   }
-} 
+}
+
+
+//////////////////////////////////////////////////////
+// page Contact
+#pageContact {
+  .map-frame {
+    margin-top: 40px;
+  }
+  .phone {
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
 
 } // end! media Extra small devices (portrait phones, less than 576px)
