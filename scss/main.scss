@@ -1229,6 +1229,10 @@ footer {
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 // page about
+.pageHeadAbout {
+  background-image: url('../img/parallax-4.jpg');
+}
+
 #textAboutPage {/////////////////////////////////////////////////
   padding-top: 70px;
   padding-bottom: 70px;
@@ -1336,6 +1340,10 @@ footer {
 
 //page treatments
 
+.pageHeadTreatments{
+  background-image: url('../img/parallax-12.jpg');
+}
+
 #treatments{ ////////////////////////////////////////
   text-align: center;
   padding-top: 60px;
@@ -1426,6 +1434,9 @@ footer {
 
 ///////////////////////////////////
 //page shopMain
+.pageHeadShop{
+  background-image: url('../img/parallax-11.jpg');
+}
 
 #shopMain{
   text-align: center;
