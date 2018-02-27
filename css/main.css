@@ -52,6 +52,41 @@ a:hover {
     font-weight: bold;
     padding-bottom: 70px; }
 
+#pageHead {
+  position: relative;
+  background-size: cover;
+  background-position: center center; }
+  #pageHead .shadow {
+    background: rgba(0, 0, 0, 0.2);
+    height: 340px;
+    text-align: center; }
+  #pageHead h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #fff;
+    padding-top: 120px; }
+
+.breadcrumbs {
+  position: absolute;
+  bottom: 20px;
+  width: 100%; }
+  .breadcrumbs p {
+    font-size: 13px;
+    line-height: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff; }
+    .breadcrumbs p img {
+      width: 10px;
+      height: 10px;
+      margin: 0 20px; }
+    .breadcrumbs p a {
+      color: #fff; }
+
 header {
   background: linear-gradient(45deg, #ecbabe 0%, #e0aeb1 35%, #8ac6d0 100%);
   line-height: 36px;
@@ -1003,10 +1038,45 @@ footer {
       left: 50%;
       margin-left: -47px; }
 
+.pageHeadGallery {
+  background-image: url("../img/video-home-4-cover.jpg"); }
+
 #blockImages {
   padding-top: 60px; }
   #blockImages h4 {
     padding-bottom: 10px; }
+  #blockImages .blockImagesItemContent {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transition: all 2s ease-out; }
+  #blockImages .blockImagesItemMini {
+    width: 255px;
+    height: 255px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative; }
+    #blockImages .blockImagesItemMini img {
+      width: 100%;
+      transition: all 2s ease-out; }
+    #blockImages .blockImagesItemMini:hover > img {
+      transform: scale(1.2) rotate(5deg); }
+    #blockImages .blockImagesItemMini:hover > .blockImagesItemContent {
+      background: rgba(88, 88, 88, 0.671); }
+  #blockImages .blockImagesItemBig {
+    width: 540px;
+    height: 540px;
+    overflow: hidden;
+    position: relative; }
+    #blockImages .blockImagesItemBig img {
+      height: 540px;
+      transition: all 2s ease-out; }
+    #blockImages .blockImagesItemBig:hover > img {
+      transform: scale(1.2) rotate(5deg); }
+    #blockImages .blockImagesItemBig:hover > .blockImagesItemContent {
+      background: rgba(88, 88, 88, 0.671); }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #logo img {
