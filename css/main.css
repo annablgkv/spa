@@ -1119,7 +1119,9 @@ footer {
   background-image: url("../img/video-home-4-cover.jpg"); }
 
 #blockImages {
-  padding-top: 60px; }
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee; }
   #blockImages h4 {
     padding-bottom: 10px; }
   #blockImages .blockImagesItemContent {
@@ -1128,13 +1130,29 @@ footer {
     width: 100%;
     height: 100%;
     background: transparent;
-    transition: all 2s ease-out; }
+    transition: all 2s ease-out;
+    text-align: center; }
   #blockImages .blockImagesItemMini {
     width: 255px;
     height: 255px;
     overflow: hidden;
     margin-bottom: 30px;
     position: relative; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 100px;
+      padding-bottom: 10px;
+      color: rgba(255, 255, 255, 0);
+      font-size: 17px;
+      line-height: 17px;
+      font-family: 'Playfair Display', sans-serif;
+      transition: 1s; }
+    #blockImages .blockImagesItemMini a {
+      font-size: 15px;
+      line-height: 15px;
+      color: rgba(255, 255, 255, 0);
+      font-family: 'Open Sans', sans-serif;
+      outline: 0;
+      transition: 1s; }
     #blockImages .blockImagesItemMini img {
       width: 100%;
       transition: all 2s ease-out; }
@@ -1142,18 +1160,62 @@ footer {
       transform: scale(1.2) rotate(5deg); }
     #blockImages .blockImagesItemMini:hover > .blockImagesItemContent {
       background: rgba(88, 88, 88, 0.671); }
+    #blockImages .blockImagesItemMini:hover > .blockImagesItemContent > p {
+      color: #fff; }
+    #blockImages .blockImagesItemMini:hover > .blockImagesItemContent > a {
+      color: #fff; }
   #blockImages .blockImagesItemBig {
     width: 540px;
     height: 540px;
     overflow: hidden;
     position: relative; }
+    #blockImages .blockImagesItemBig p {
+      padding-top: 250px;
+      padding-bottom: 10px;
+      color: rgba(255, 255, 255, 0);
+      font-size: 17px;
+      line-height: 17px;
+      font-family: 'Playfair Display', sans-serif;
+      transition: 1s; }
+    #blockImages .blockImagesItemBig a {
+      font-size: 15px;
+      line-height: 15px;
+      color: rgba(255, 255, 255, 0);
+      font-family: 'Open Sans', sans-serif;
+      outline: 0;
+      transition: 1s; }
     #blockImages .blockImagesItemBig img {
-      height: 540px;
+      height: 100%;
       transition: all 2s ease-out; }
     #blockImages .blockImagesItemBig:hover > img {
       transform: scale(1.2) rotate(5deg); }
     #blockImages .blockImagesItemBig:hover > .blockImagesItemContent {
       background: rgba(88, 88, 88, 0.671); }
+    #blockImages .blockImagesItemBig:hover > .blockImagesItemContent > p {
+      color: #fff; }
+    #blockImages .blockImagesItemBig:hover > .blockImagesItemContent > a {
+      color: #fff; }
+  #blockImages .enter {
+    padding-top: 30px; }
+  #blockImages .blockImagesItem {
+    height: 225px;
+    text-align: center;
+    border-right: 1px solid #eee; }
+    #blockImages .blockImagesItem img {
+      width: 70px;
+      height: 70px;
+      margin-top: 50px;
+      margin-bottom: 20px; }
+    #blockImages .blockImagesItem p {
+      color: #a3a3a3;
+      text-align: center;
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 3px;
+      font-weight: 300;
+      font-family: 'Open Sans', sans-serif; }
+  #blockImages .blockImagesLastItem {
+    border: none; }
 
 .pageHeadShop {
   background-image: url("../img/parallax-11.jpg"); }
@@ -1262,7 +1324,17 @@ footer {
     margin-bottom: 50px; }
   #blockContact .itemContact {
     margin-bottom: 100px;
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  #blockImages .blockImagesItemMini {
+    width: 210px;
+    height: 210px; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 80px; }
+  #blockImages .blockImagesItemBig {
+    width: 450px;
+    height: 450px; }
+    #blockImages .blockImagesItemBig p {
+      padding-top: 200px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #logo img {
@@ -1322,7 +1394,21 @@ footer {
     width: 100%;
     height: 450px; }
   footer p {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  #blockImages .blockImagesItemMini {
+    width: 150px;
+    height: 150px; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 50px; }
+  #blockImages .blockImagesItemBig {
+    width: 330px;
+    height: 330px; }
+    #blockImages .blockImagesItemBig p {
+      padding-top: 150px; }
+  #blockImages .blockImagesItem {
+    height: 125px; }
+    #blockImages .blockImagesItem img {
+      margin-top: 10px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   #logo img {
@@ -1441,7 +1527,28 @@ footer {
   footer p {
     margin-bottom: 10px; }
   footer a i {
-    padding: 0 15px 0 15px; } }
+    padding: 0 15px 0 15px; }
+  #blockImages .blockImagesItemMini {
+    width: 105px;
+    height: 105px; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 30px;
+      font-size: 12px;
+      line-height: 12px; }
+    #blockImages .blockImagesItemMini a {
+      font-size: 9px;
+      line-height: 9px; }
+  #blockImages .blockImagesItemBig {
+    width: 240px;
+    height: 240px; }
+    #blockImages .blockImagesItemBig p {
+      padding-top: 100px; }
+  #blockImages .blockImagesItem {
+    height: 125px; }
+    #blockImages .blockImagesItem img {
+      margin-top: 10px; }
+    #blockImages .blockImagesItem p {
+      font-size: 9px; } }
 
 @media (max-width: 575.98px) {
   #logo img {
@@ -1591,10 +1698,29 @@ footer {
     font-size: 25px; }
   #treatments p {
     font-size: 14px; }
+<<<<<<< HEAD
   #mattEffect p {
     font-size: 12px; }
   #mattEffect h2 {
     font-size: 25px; }
+=======
+  #blockImages .blockImagesItemMini {
+    width: 100%;
+    height: 40%; }
+    #blockImages .blockImagesItemMini p {
+      padding-top: 30px;
+      font-size: 12px;
+      line-height: 12px; }
+    #blockImages .blockImagesItemMini a {
+      font-size: 9px;
+      line-height: 9px; }
+  #blockImages .blockImagesItem {
+    height: 125px; }
+    #blockImages .blockImagesItem img {
+      margin-top: 10px; }
+    #blockImages .blockImagesItem p {
+      font-size: 9px; }
+>>>>>>> master
   footer p {
     margin-bottom: 10px; }
   footer a i {
