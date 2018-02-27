@@ -1599,29 +1599,122 @@ footer {
   font-size: 25px;
   line-height: 25px;
   font-weight: normal;
+  }
+  h5{
+    color: #a3a3a3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  a{
+    margin-top: -45px;
+    background-color: #8ac6d0;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 8px 12px;
+    text-transform: uppercase;
+  }
+  .articleItem{
+    margin-bottom: 30px;
+  }
 }
-h5{
-  color: #a3a3a3;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-  font-size: 12px;
-  line-height: 25px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+
+
+//////////////////////////////////////////////////////
+// page Contact
+.pageHeadContact {
+  background-image: url('../img/video-home-4-cover.jpg');
 }
-a{
-  margin-top: -45px;
-  background-color: #8ac6d0;
-  color: white;
-  border-radius: 20px;
-  font-size: 13px;
-  padding: 8px 12px;
-  text-transform: uppercase;
+
+#pageContact {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #eee;
+  h1 {
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #727475;
+    padding-bottom: 20px;
+  }
+  p {
+    color: #a3a3a3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    padding-bottom: 20px;
+  }
+  input, textarea {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 10px 20px;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    background-color: #8ac6d0;
+    border-width: 0px;
+    border-color: #8ac6d0;
+    border-radius: 25px;
+    border-style: solid;
+    padding: 10px 20px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100px;
+  }
+  .map-frame {
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  table {
+    width: 100%;
+  }
+  .firstDay{
+    border-bottom: 1px solid #eee;
+  }
+  .workDays{
+    font-size: 13px;
+    line-height: 13px;
+    color: #727475;
+    font-weight: normal;
+    font-family: 'Playfair Display', sans-serif;
+    padding: 15px 10px;
+  }
+  .workTime{
+    font-size: 13px;
+    line-height: 13px;
+    color: #a3a3a3;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 10px;
+  }
+  .phone {
+    text-align: center;
+    h1 {
+      font-size: 15px;
+      line-height: 15px;
+      letter-spacing: 3px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: #8ac6d0;
+      padding-top: 40px;
+    }
+    p {
+      color: #727475;
+      font-size: 60px;
+      line-height: 60px;
+      font-family: 'Playfair Display', sans-serif;
+    }
+  }
 }
-.articleItem{
-  margin-bottom: 30px;
-}
-}
+
 
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
@@ -1856,8 +1949,13 @@ footer { //////////////////////////////////////////////////
 }
 
 
-
-
+//////////////////////////////////////////////////////
+// page Contact
+#pageContact {
+  .map-frame {
+    margin-top: 40px;
+  }
+}
 
 
 } // end! media Medium devices (tablets, 768px and up)
@@ -2129,6 +2227,16 @@ footer { //////////////////////////////////////////////////
     } 
   }
 }
+
+
+//////////////////////////////////////////////////////
+// page Contact
+#pageContact {
+  .map-frame {
+    margin-top: 40px;
+  }
+}
+
 
 
 } // end! media Small devices (landscape phones, 576px and up)
@@ -2449,8 +2557,6 @@ h5{
 }
 
 
-
-
 footer { //////////////////////////////////////////////////
   p {
     margin-bottom: 10px;
@@ -2460,6 +2566,21 @@ footer { //////////////////////////////////////////////////
       padding: 0 15px 0 15px;
     }
   }
-} 
+}
+
+
+//////////////////////////////////////////////////////
+// page Contact
+#pageContact {
+  .map-frame {
+    margin-top: 40px;
+  }
+  .phone {
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
 
 } // end! media Extra small devices (portrait phones, less than 576px)
