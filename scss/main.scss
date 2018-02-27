@@ -1441,6 +1441,37 @@ nav { //////////////////////////////////////////////////
 }
 
 
+#mainSlider { //////////////////////////////////////////////////
+  .shadow {
+    background: rgba(0,0,0,.2);
+    height: 400px;
+  }
+  #mainSliderShow {
+    width: 400px;
+  }
+  .mainSliderView {
+    width: 400px;
+    p {
+      font-size: 11px;
+      line-height: 11px;
+    }
+    h1 {
+      font-size: 26px;
+      line-height: 26px;
+    }
+    a {
+      font-size: 14px;
+      line-height: 14px;
+      border-radius: 25px;      
+      padding: 10px 15px;        
+    }
+  }
+  #mainSliderPrev, #mainSliderNext {
+    line-height: 400px;    
+  }
+}
+
+
 #spaLinks {
   padding-bottom: 5px;
   .spaLinkBlock {
@@ -1604,6 +1635,42 @@ footer { //////////////////////////////////////////////////
 nav { //////////////////////////////////////////////////
   border-top: none;
   padding-bottom: 30px;
+}
+
+
+#mainSlider { //////////////////////////////////////////////////
+  .shadow {
+    background: rgba(0,0,0,.2);
+    height: 300px;
+  }
+  #mainSliderShow {
+    width: 250px;
+  }
+  .mainSliderView {
+    width: 250px;
+    margin-top: 80px;    
+    p {
+      font-size: 11px;
+      line-height: 11px;
+    }
+    h1 {
+      font-size: 26px;
+      line-height: 26px;
+    }
+    a {
+      font-size: 14px;
+      line-height: 14px;
+      border-radius: 25px;      
+      padding: 10px 15px;        
+    }
+  }
+  #mainSliderPrev, #mainSliderNext {
+    line-height: 550px;
+    width: 25px;    
+  }
+  i {
+    font-size: 26px;
+  }
 }
 
 
