@@ -33,24 +33,63 @@ $('#btnCloseMobiMenu').click(function () {
 var slider = [
   {
     img: '../img/parallax-4.jpg',
-    title: 'spa',
-    desc: 'lorem',
-    link: '/news/new1',
+    title: 'Beauty Centre Spa Wellness',
+    desc: 'Lorem ipsum dolor amet, consectetur',
+    link: '#',
   },
   {
     img: '../img/parallax-8-1.jpg',
-    title: 'spa 2',
-    desc: 'lorem',
-    link: '/news/new1',
+    title: 'Beauty Centre Spa Wellness',
+    desc: 'Lorem ipsum dolor amet, consectetur',
+    link: '#',
   },
 ]
+
+
+showSlide(slider[0].title, slider[0].desc, slider[0].link)
 
 $('#mainSlider').css({
   "background-image": "url('" + slider[0].img + "')"
 })
 
-$('#mainSlider').click(function () {
+
+function showSlide(a, b, c) {
+  $('#mainSlider #mainSliderShow').html(
+    '<div class="mainSliderView animated fadeIn">' +
+      '<p>' + b + '</p>' +
+      '<h1>' + a + '</h1>' +
+      '<a href="' + c + '">Read more</a>' +
+    '</div>'
+  )
+}
+
+
+$('#mainSlider #mainSliderPrev').click(function () {
   var e = $("#count"), i = +e.val()
+
+  showSlide(slider[i].title, slider[i].desc, slider[i].link)
+
+  $('#mainSlider').css({
+    "background-image": "url('" + slider[i].img + "')"
+  })
+
+  if (i == 0) {
+    e.val((slider.length - 1))
+  }
+  else if (i > 0) {
+    e.val(--i)
+  }
+  else {
+    e.val((slider.length - 1))
+  }
+
+})
+
+
+$('#mainSlider #mainSliderNext').click(function () {
+  var e = $("#count"), i = +e.val()
+
+  showSlide(slider[i].title, slider[i].desc, slider[i].link)
 
   $('#mainSlider').css({
     "background-image": "url('" + slider[i].img + "')"

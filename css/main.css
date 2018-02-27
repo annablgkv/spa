@@ -252,10 +252,76 @@ nav {
     cursor: pointer; }
 
 #mainSlider {
-  height: 600px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
+  #mainSlider .shadow {
+    background: rgba(0, 0, 0, 0.2);
+    height: 600px; }
+  #mainSlider #mainSliderShow {
+    width: 600px;
+    height: 100%;
+    margin: auto; }
+  #mainSlider .mainSliderView {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin-top: 150px;
+    text-align: center; }
+    #mainSlider .mainSliderView p {
+      font-size: 13px;
+      line-height: 13px;
+      font-weight: 400;
+      color: white;
+      font-family: "Open Sans";
+      letter-spacing: 3px;
+      text-transform: uppercase; }
+    #mainSlider .mainSliderView h1 {
+      font-size: 65px;
+      line-height: 85px;
+      font-weight: 700;
+      color: white;
+      font-family: "Playfair Display";
+      margin-top: 10px;
+      margin-bottom: 40px; }
+    #mainSlider .mainSliderView a {
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 400;
+      color: #a3a3a3;
+      font-family: "Playfair Display";
+      background-color: white;
+      border-color: white;
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 25px;
+      text-transform: uppercase;
+      padding: 15px 25px;
+      transition: .3s; }
+      #mainSlider .mainSliderView a:hover {
+        color: #fff;
+        background: none; }
+  #mainSlider #mainSliderPrev {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 100%;
+    line-height: 600px;
+    text-align: right; }
+  #mainSlider #mainSliderNext {
+    position: relative;
+    float: right;
+    width: 50px;
+    height: 100%;
+    line-height: 600px;
+    text-align: left; }
+  #mainSlider i {
+    font-size: 36px;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer; }
+    #mainSlider i:hover {
+      color: rgba(255, 255, 255, 0.5); }
 
 #spaLinks {
   padding-top: 30px;
@@ -1021,6 +1087,26 @@ footer {
   nav {
     border-top: none;
     padding-bottom: 30px; }
+  #mainSlider .shadow {
+    background: rgba(0, 0, 0, 0.2);
+    height: 400px; }
+  #mainSlider #mainSliderShow {
+    width: 400px; }
+  #mainSlider .mainSliderView {
+    width: 400px; }
+    #mainSlider .mainSliderView p {
+      font-size: 11px;
+      line-height: 11px; }
+    #mainSlider .mainSliderView h1 {
+      font-size: 26px;
+      line-height: 26px; }
+    #mainSlider .mainSliderView a {
+      font-size: 14px;
+      line-height: 14px;
+      border-radius: 25px;
+      padding: 10px 15px; }
+  #mainSlider #mainSliderPrev, #mainSlider #mainSliderNext {
+    line-height: 400px; }
   #spaLinks {
     padding-bottom: 5px; }
     #spaLinks .spaLinkBlock {
@@ -1102,6 +1188,30 @@ footer {
   nav {
     border-top: none;
     padding-bottom: 30px; }
+  #mainSlider .shadow {
+    background: rgba(0, 0, 0, 0.2);
+    height: 300px; }
+  #mainSlider #mainSliderShow {
+    width: 250px; }
+  #mainSlider .mainSliderView {
+    width: 250px;
+    margin-top: 80px; }
+    #mainSlider .mainSliderView p {
+      font-size: 11px;
+      line-height: 11px; }
+    #mainSlider .mainSliderView h1 {
+      font-size: 26px;
+      line-height: 26px; }
+    #mainSlider .mainSliderView a {
+      font-size: 14px;
+      line-height: 14px;
+      border-radius: 25px;
+      padding: 10px 15px; }
+  #mainSlider #mainSliderPrev, #mainSlider #mainSliderNext {
+    line-height: 550px;
+    width: 25px; }
+  #mainSlider i {
+    font-size: 26px; }
   #spaLinks {
     padding-bottom: 5px; }
     #spaLinks .spaLinkBlock {
