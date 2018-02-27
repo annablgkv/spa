@@ -1385,6 +1385,8 @@ footer {
 
 #blockImages {
   padding-top: 60px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
   h4 {
     padding-bottom: 10px;
   }
@@ -1395,6 +1397,7 @@ footer {
     height: 100%;
     background: rgba(0,0,0,0);
     transition: all 2s ease-out;
+    text-align: center;
   }
   .blockImagesItemMini {
     width: 255px;
@@ -1402,6 +1405,23 @@ footer {
     overflow:hidden;
     margin-bottom: 30px;
     position: relative;
+    p {
+      padding-top: 100px;
+      padding-bottom: 10px;
+      color: rgba(255,255,255,.0);
+      font-size: 17px;
+      line-height: 17px;
+      font-family: 'Playfair Display', sans-serif;
+      transition: 1s;          
+    }
+    a {
+      font-size: 15px;
+      line-height: 15px;
+      color: rgba(255,255,255,.0);
+      font-family: 'Open Sans', sans-serif;
+      outline: 0;
+      transition: 1s;    
+    }
     img {
       width: 100%;
       transition: all 2s ease-out;
@@ -1412,12 +1432,35 @@ footer {
     &:hover > .blockImagesItemContent {
       background: rgba(88, 88, 88, 0.671);           
     }
+    &:hover > .blockImagesItemContent > p {
+      color: #fff;
+    }
+    &:hover > .blockImagesItemContent > a {
+      color: #fff;
+    }
   }
   .blockImagesItemBig {
     width: 540px;
     height: 540px;
     overflow:hidden;
-    position: relative;    
+    position: relative;
+    p {
+      padding-top: 250px;
+      padding-bottom: 10px;
+      color: rgba(255,255,255,.0);
+      font-size: 17px;
+      line-height: 17px;
+      font-family: 'Playfair Display', sans-serif;
+      transition: 1s;          
+    }
+    a {
+      font-size: 15px;
+      line-height: 15px;
+      color: rgba(255,255,255,.0);
+      font-family: 'Open Sans', sans-serif;
+      outline: 0;
+      transition: 1s;    
+    }    
     img {
       height: 540px;
       transition: all 2s ease-out;
@@ -1428,6 +1471,40 @@ footer {
     &:hover > .blockImagesItemContent {
       background: rgba(88, 88, 88, 0.671);      
     }
+    &:hover > .blockImagesItemContent > p {
+      color: #fff;
+    }
+    &:hover > .blockImagesItemContent > a {
+      color: #fff;
+    }
+  }
+  //////////////////////
+  .enter {
+    padding-top: 30px;
+  }
+  //////////////////////  
+  .blockImagesItem {
+    height: 225px;
+    text-align: center;
+    img {
+      width: 70px;
+      height: 70px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #a3a3a3;
+      text-align: center;
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 3px;
+      font-weight: 300;
+      font-family: 'Open Sans', sans-serif;
+    }
+    border-right: 1px solid #eee;
+  }
+  .blockImagesLastItem {
+    border: none;
   }
 }
 
