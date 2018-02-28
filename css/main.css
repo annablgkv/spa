@@ -1308,6 +1308,114 @@ footer {
   #articlesBlock .articleItem {
     margin-bottom: 30px; }
 
+#bgImageOurStuff {
+  background: transparent; }
+  #bgImageOurStuff .shadow {
+    background: rgba(0, 0, 0, 0.2);
+    padding-top: 30px;
+    padding-bottom: 100px; }
+  #bgImageOurStuff h1 {
+    text-align: left; }
+  #bgImageOurStuff p {
+    text-align: left; }
+  #bgImageOurStuff .itemOurStuff {
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    color: #a3a3a3;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px; }
+    #bgImageOurStuff .itemOurStuff img {
+      height: 40px; }
+    #bgImageOurStuff .itemOurStuff h1 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #727475;
+      font-family: 'Playfair Display', sans-serif;
+      font-size: 40px;
+      line-height: 45px;
+      text-align: center;
+      font-weight: normal; }
+    #bgImageOurStuff .itemOurStuff h3 {
+      color: #a3a3a3;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: lighter;
+      font-size: 12px;
+      line-height: 25px;
+      letter-spacing: 3px;
+      text-transform: uppercase; }
+
+#pngStuff {
+  border-bottom: 1px solid #eee; }
+  #pngStuff .blockImagesItem {
+    height: 225px;
+    text-align: center;
+    border-right: 1px solid #eee; }
+    #pngStuff .blockImagesItem img {
+      width: 70px;
+      height: 70px;
+      margin-top: 50px;
+      margin-bottom: 20px; }
+    #pngStuff .blockImagesItem p {
+      color: #a3a3a3;
+      text-align: center;
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 3px;
+      font-weight: 300;
+      font-family: 'Open Sans', sans-serif; }
+  #pngStuff .blockImagesLastItem {
+    border: none; }
+
+#bgDoingRight {
+  background: transparent;
+  margin-top: 50px; }
+  #bgDoingRight .shadow {
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 30px;
+    padding-bottom: 100px; }
+  #bgDoingRight h3 {
+    font-size: 45px;
+    line-height: 55px;
+    text-align: left;
+    margin-left: 30px; }
+  #bgDoingRight h1 {
+    margin-top: 20px;
+    font-size: 45px;
+    line-height: 40px; }
+
+#lotTextServ {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+  #lotTextServ .floatingImg {
+    position: relative;
+    float: left;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 20px; }
+  #lotTextServ img {
+    height: 45px; }
+  #lotTextServ h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold; }
+  #lotTextServ a {
+    margin-top: -45px;
+    border: 1px solid #f1f1f1;
+    color: #a3a3a3;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 8px 12px;
+    text-transform: uppercase; }
+  #lotTextServ .firstLayer {
+    padding-bottom: 50px; }
+
 .pageHeadContact {
   background-image: url("../img/video-home-4-cover.jpg"); }
 
@@ -1627,7 +1735,18 @@ footer {
     #blockImages .blockImagesItem p {
       font-size: 9px; }
   #pageContact .map-frame {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  #bgImageOurStuff .textOnBg {
+    text-align: center; }
+  #bgImageOurStuff h1 {
+    text-align: center; }
+  #bgImageOurStuff p {
+    text-align: center; }
+  #pngStuff .blockImagesItem {
+    height: 170px; }
+    #pngStuff .blockImagesItem img {
+      width: 50px;
+      height: 50px; } }
 
 @media (max-width: 575.98px) {
   #logo img {
@@ -1804,4 +1923,18 @@ footer {
   #pageContact .map-frame {
     margin-top: 40px; }
   #pageContact .phone p {
-    font-size: 30px; } }
+    font-size: 30px; }
+  #bgImageOurStuff .textOnBg {
+    text-align: center; }
+  #bgImageOurStuff h1 {
+    text-align: center;
+    font-size: 45px; }
+  #bgImageOurStuff p {
+    text-align: center;
+    font-size: 13px; }
+  #pngStuff .blockImagesItem {
+    height: 170px;
+    border-bottom: 1px solid #eee; }
+    #pngStuff .blockImagesItem img {
+      width: 50px;
+      height: 50px; } }
