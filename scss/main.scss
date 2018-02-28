@@ -809,7 +809,7 @@ nav { //////////////////////////////////////////////////
 }
 
 
-#blockServices { //////////////////////////////////////////////////
+#blockServices, #bestPromotions { //////////////////////////////////////////////////
   padding-bottom: 65px;
   .itemBlockServies {
     display: flow-root;
@@ -1876,6 +1876,36 @@ footer {
     background-image: url('../img/focus-9.jpg');
   }   
 }
+
+#bestPromotions{
+  padding-bottom: 60px;
+  .spaLinkBlock1 {
+    background-image: url('../img/parallax-4.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    a {
+      padding: 0; 
+    }
+    img {
+      width: 95px;
+      height: 95px;
+      position: absolute;
+      margin-top: 50%;
+      top: -47px;
+      margin-left: 50%;
+      left: -47px;
+    }
+  }
+  .inFramePrice{
+    padding-top: 40px;
+    border: 1px solid #eee;
+    padding: 40px;
+  }
+  .notFramedItems{
+    padding: 40px;
+  }
+}
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2798,5 +2828,13 @@ footer { //////////////////////////////////////////////////
    }
   }
 }
+
+//page prices
+#bestPromotions{
+  .spaLinkBlock1 {
+    height: 300px;
+  }
+}
+
 
 } // end! media Extra small devices (portrait phones, less than 576px)

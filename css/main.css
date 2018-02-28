@@ -662,16 +662,16 @@ nav {
     margin-top: -30px;
     color: #fff; }
 
-#blockServices {
+#blockServices, #bestPromotions {
   padding-bottom: 65px; }
-  #blockServices .itemBlockServies {
+  #blockServices .itemBlockServies, #bestPromotions .itemBlockServies {
     display: flow-root;
     margin-top: 20px; }
-    #blockServices .itemBlockServies .procName {
+    #blockServices .itemBlockServies .procName, #bestPromotions .itemBlockServies .procName {
       position: relative;
       float: left;
       width: 50%; }
-      #blockServices .itemBlockServies .procName p {
+      #blockServices .itemBlockServies .procName p, #bestPromotions .itemBlockServies .procName p {
         background: #fff;
         display: inline;
         padding-right: 10px;
@@ -681,12 +681,12 @@ nav {
         font-weight: 700;
         color: #727475;
         text-transform: uppercase; }
-    #blockServices .itemBlockServies .procPrice {
+    #blockServices .itemBlockServies .procPrice, #bestPromotions .itemBlockServies .procPrice {
       position: relative;
       float: right;
       width: 50%;
       text-align: right; }
-      #blockServices .itemBlockServies .procPrice p {
+      #blockServices .itemBlockServies .procPrice p, #bestPromotions .itemBlockServies .procPrice p {
         background: #fff;
         display: inline;
         padding-left: 10px;
@@ -695,28 +695,28 @@ nav {
         font-family: 'Playfair Display', sans-serif;
         font-weight: 700;
         color: #727475; }
-    #blockServices .itemBlockServies .procLine {
+    #blockServices .itemBlockServies .procLine, #bestPromotions .itemBlockServies .procLine {
       border-bottom: 1px dotted #eee;
       width: 90%;
       height: 20px;
       position: absolute; }
-    #blockServices .itemBlockServies .procDesc {
+    #blockServices .itemBlockServies .procDesc, #bestPromotions .itemBlockServies .procDesc {
       position: relative;
       float: left;
       width: 80%; }
-      #blockServices .itemBlockServies .procDesc p {
+      #blockServices .itemBlockServies .procDesc p, #bestPromotions .itemBlockServies .procDesc p {
         font-size: 15px;
         line-height: 29px;
         font-family: 'Open Sans', sans-serif;
         font-weight: lighter;
         color: #a3a3a3; }
-    #blockServices .itemBlockServies .procTag {
+    #blockServices .itemBlockServies .procTag, #bestPromotions .itemBlockServies .procTag {
       position: relative;
       float: right;
       width: 20%;
       text-align: right;
       line-height: 29px; }
-      #blockServices .itemBlockServies .procTag p {
+      #blockServices .itemBlockServies .procTag p, #bestPromotions .itemBlockServies .procTag p {
         background: #fff;
         border: 1px solid #f1f1f1;
         font-family: 'Playfair Display', sans-serif;
@@ -727,13 +727,13 @@ nav {
         font-size: 13px;
         line-height: 13px;
         color: #a3a3a3; }
-    #blockServices .itemBlockServies .procTagNew1 {
+    #blockServices .itemBlockServies .procTagNew1, #bestPromotions .itemBlockServies .procTagNew1 {
       position: relative;
       float: right;
       width: 20%;
       text-align: right;
       line-height: 29px; }
-      #blockServices .itemBlockServies .procTagNew1 p {
+      #blockServices .itemBlockServies .procTagNew1 p, #bestPromotions .itemBlockServies .procTagNew1 p {
         background: #ecbabe;
         font-family: 'Playfair Display', sans-serif;
         text-transform: uppercase;
@@ -743,13 +743,13 @@ nav {
         font-size: 13px;
         line-height: 13px;
         color: #fff; }
-    #blockServices .itemBlockServies .procTagNew2 {
+    #blockServices .itemBlockServies .procTagNew2, #bestPromotions .itemBlockServies .procTagNew2 {
       position: relative;
       float: right;
       width: 20%;
       text-align: right;
       line-height: 29px; }
-      #blockServices .itemBlockServies .procTagNew2 p {
+      #blockServices .itemBlockServies .procTagNew2 p, #bestPromotions .itemBlockServies .procTagNew2 p {
         background: #8ac6d0;
         font-family: 'Playfair Display', sans-serif;
         text-transform: uppercase;
@@ -1506,6 +1506,30 @@ footer {
   #spaLinksPrices .spaLinkBlock3 {
     background-image: url("../img/focus-9.jpg"); }
 
+#bestPromotions {
+  padding-bottom: 60px; }
+  #bestPromotions .spaLinkBlock1 {
+    background-image: url("../img/parallax-4.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px; }
+    #bestPromotions .spaLinkBlock1 a {
+      padding: 0; }
+    #bestPromotions .spaLinkBlock1 img {
+      width: 95px;
+      height: 95px;
+      position: absolute;
+      margin-top: 50%;
+      top: -47px;
+      margin-left: 50%;
+      left: -47px; }
+  #bestPromotions .inFramePrice {
+    padding-top: 40px;
+    border: 1px solid #eee;
+    padding: 40px; }
+  #bestPromotions .notFramedItems {
+    padding: 40px; }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #logo img {
     padding-bottom: 25px; }
@@ -1952,4 +1976,6 @@ footer {
     border-bottom: 1px solid #eee; }
     #pngStuff .blockImagesItem img {
       width: 50px;
-      height: 50px; } }
+      height: 50px; }
+  #bestPromotions .spaLinkBlock1 {
+    height: 300px; } }

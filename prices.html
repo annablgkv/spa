@@ -329,7 +329,52 @@
 </div>
 <!-- block spaLinks (end) -->
 
+<!-- block with best promotions (start) -->
+<div id="bestPromotions">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h4 class="mainPageText1">OUR PRICES</h4>
+				<h1 class="mainPageText2">The Best Promotion</h1>
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="spaLinkBlock spaLinkBlock1">
+					<a href="#" data-toggle="modal" data-target="#modalVideo">
+						<img src="./img/icons/icon-play.png" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 inFramePrice" id="itemBlockServices3">
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-6 notFramedItems" id="itemBlockServices4"></div>
+			<div class="col-12 col-md-6 notFramedItems" id="itemBlockServices5"></div>						
+		</div>
+
+	</div>
+</div>
+
+<!-- block with best promotions (end) -->
+
+
+<!-- modal Video >>  (start) -->
+<div class="modal fade bd-example-modal-lg" id="modalVideo" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div id="blockVideo" class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<iframe src="https://www.youtube.com/embed/lZrvODa1nQw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+<!-- modal Video >>  (end) -->
 
 <!-- FOOTER //////////////////////////////////////////////////////////// -->
 
@@ -376,5 +421,37 @@
 	<script src="./js/parallax.min.js"></script>
 	<!-- main script -->
 	<script src="./js/main.js"></script>	
+	<script>
+		for (var i = 0; i < 5; i++) {
+				document.getElementById('itemBlockServices3').innerHTML += '' +
+					'<div class="itemBlockServies">' +
+					'<div class="procLine"></div>' +
+					'<div class="procName"><p>' + dataServices[i].name + '</p></div>' +
+					'<div class="procPrice"><p>$ ' + dataServices[i].price + '</p></div>' +
+					'<div class="procDesc"><p>' + dataServices[i].desc + '</p></div>' +
+					'<div class="procTag' + dataServices[i].classTag + ' dontTouchMe"><p>' + dataServices[i].tag + '</p></div>' +
+					'</div>'
+			}
+			for (var i = 0; i < 3; i++) {
+					document.getElementById('itemBlockServices4').innerHTML += '' +
+						'<div class="itemBlockServies">' +
+						'<div class="procLine"></div>' +
+						'<div class="procName"><p>' + dataServices[i].name + '</p></div>' +
+						'<div class="procPrice"><p>$ ' + dataServices[i].price + '</p></div>' +
+						'<div class="procDesc"><p>' + dataServices[i].desc + '</p></div>' +
+						'<div class="procTag' + dataServices[i].classTag + ' dontTouchMe"><p>' + dataServices[i].tag + '</p></div>' +
+						'</div>'
+				}
+				for (var i = 3; i < 6; i++) {
+						document.getElementById('itemBlockServices5').innerHTML += '' +
+							'<div class="itemBlockServies">' +
+							'<div class="procLine"></div>' +
+							'<div class="procName"><p>' + dataServices[i].name + '</p></div>' +
+							'<div class="procPrice"><p>$ ' + dataServices[i].price + '</p></div>' +
+							'<div class="procDesc"><p>' + dataServices[i].desc + '</p></div>' +
+							'<div class="procTag' + dataServices[i].classTag + ' dontTouchMe"><p>' + dataServices[i].tag + '</p></div>' +
+							'</div>'
+					}
+	</script>
 </body>
 </html>
