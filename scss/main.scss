@@ -1628,6 +1628,44 @@ footer {
 .pageHeadBooking {
   background-image: url('../img/video-home-4-cover.jpg');
 }
+#bookingTable {
+  padding: 70px 0;
+  table {
+    text-align: center;
+    font-family: "Playfair Display";
+    color: #727475;
+    font-size: 14px;
+    .tableTime {
+      line-height: 40px;
+    }
+    a {
+      font-weight: lighter;
+      letter-spacing: 3px;
+      font-size: 11px;
+      font-family: 'Open Sans', sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    p {
+      color: #fff;
+    }
+    .tableItem1 {
+      background: rgb(138, 198, 208);
+      &:hover {
+        background: rgb(236, 186, 190);        
+      }
+    }
+    .tableItem2 {
+      background: rgb(236, 186, 190);
+      &:hover {
+        background: rgb(138, 198, 208);             
+      }
+    }
+  }
+}
 #bookingForm {
   background: transparent;
   .shadow {
