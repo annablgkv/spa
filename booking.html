@@ -279,10 +279,193 @@
 
 
 
+<!-- block pageHead (start) -->
+<div id="pageHead" class="pageHeadGallery">
+	<div class="shadow">
+		<h1>Booking</h1>
+
+		<!-- breadcrumbs (start) -->
+		<div class="breadcrumbs">
+			<p>
+				<a href="/">Home</a>
+				<img src="./img/icons/icon-next-white.svg">Booking</p>
+		</div>
+		<!-- breadcrumbs (end) -->
+	</div>
+</div>
+<!-- block pageHead (end) -->
+
+
+
+<!-- block Booking Table (start) -->
+<div id="bookingTable">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 d-none d-md-block" id="bookingGetTable">
+				<!-- js -->
+			</div>
+			<div class="col-12 d-block d-md-none" id="bookingGetTableMobi">
+				<!-- js -->
+			</div>
+		</div>
+	</div>
+</div>
+<!-- block Booking Table (end) -->
 
 
 
 
+
+<!-- block BookingForm (start) -->
+<div id="bookingForm">
+	<div class="shadow">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-sm-2 col-lg-3"></div>
+
+
+				<div class="col-12 col-sm-8 col-lg-6">
+					<form>
+						<p>BOOKING</p>
+						<h1>Send a Request</h1>
+
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Name">
+							</div>
+
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Surname">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<input type="email" placeholder="Email">
+							</div>
+						
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Subject">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+								<input type="text" placeholder="Treatment">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<input type="date">
+							</div>
+						
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Hour 9:00">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+								<textarea rows="4" placeholder="Message"></textarea>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+								<input type="submit" value="Book now">
+							</div>
+						</div>
+
+
+
+					</form>
+				</div>
+
+
+				<div class="col-12 col-sm-2 col-lg-3"></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- block BookingForm (end) -->
+
+
+
+
+
+
+<!-- block with something about and products (start) -->
+<div id="spaBottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<h3>About Us</h3>
+				<img src="./img/focus-4.jpg" alt="">
+				<p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue Lorem
+					ipsum dolor sit amet.</p>
+			</div>
+			<div class="col-12 col-lg-4">
+				<h3>Latest Products</h3>
+
+				<div class="products">
+					<img src="./img/shop-1-180x180.jpg">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-2-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-3-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="col-12 col-lg-4">
+				<h3>Best Products</h3>
+				<div class="products">
+					<img src="./img/shop-1-180x180.jpg">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-2-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-3-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- block with something about and products (start) -->
 
 
 
@@ -334,6 +517,139 @@
 	<!-- parallax.js -->
 	<script src="./js/parallax.min.js"></script>
 	<!-- main script -->
-	<script src="./js/main.js"></script>	
+	<script src="./js/main.js"></script>
+	<!-- script background block BookingForm -->
+	<script>
+		$('#bookingForm').parallax({ imageSrc: './img/parallax-4.jpg', speed: 0.3 })
+
+
+
+		function randomInteger(min, max) {
+			var rand = min + Math.random() * (max - min)
+			rand = Math.round(rand);
+			return rand;
+		}
+
+		// block Booking dataset (start)
+		var dataBooking = [
+			//time    MON          TUE              WED              THU              FRI
+			["9:00",  "Skin Care", "",              "Sport Massage", "",              "Salt Bath"		 ],
+			["10:00", "",          "Manicure",      "", 					 	 "Relax Massage", ""						 ],
+			["11:00", "Sauna",     "Pedicure",      "", 					 	 "Exfoliating",   ""						 ],
+			["12:00", "", 				 "Body Scrub",    "Revitalizing",	 "",              "Sport Massage"],
+			["13:00", "Skin Care", "",              "Sport Massage", "Salt Bath",     ""						 ],
+			["14:00", "Manicure",  "",              "Relax Massage", "",              ""						 ],
+			["15:00", "", 				 "Revitalizing",  "Exfoliating",   "",              "Sauna"				 ],
+			["16:00", "", 				 "",  						"", 	 					 "", 							""				 		 ],									
+		]
+
+
+		getData = '';
+		for(var i=0; i<7; i++) {
+			getData += '<!-- '+ (9+i) +':00 -->'+
+			'<tr>'+
+				'<td class="tableTime">'+ dataBooking[i][0] +'</td>'
+				for(var j=1; j<6; j++){
+					if (dataBooking[i][j]!="") {
+						getData += '<td class="tableItem'+ randomInteger(1, 2) +'"><a href="#">Book now</a> <p>'+ dataBooking[i][j] +'</p></td>'
+					} 
+					else {
+						getData  += '<td>' + dataBooking[i][j] + '</td>'
+					}
+				}
+			getData += '</tr>'
+		}
+
+		$('#bookingGetTable').html('' +
+			'<table class="table table-bordered">' +
+				'<tr>' +
+					'<td></td>' +
+					'<td>Monday</td>' +
+					'<td>Tuesday</td>' +
+					'<td>Wednesday</td>' +
+					'<td>Thursday</td>' +
+					'<td>Friday</td>' +
+				'</tr>' +
+				getData +
+			'</table>'
+		)
+
+		//mobi
+
+		getMon = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][1] != "") {
+				getMon += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][1] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getTue = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][2] != "") {
+				getTue += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][2] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getWeb = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][3] != "") {
+				getWeb += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][3] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getThu = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][4] != "") {
+				getThu += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][4] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getFri = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][5] != "") {
+				getFri += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][5] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		$('#bookingGetTableMobi').html('' +
+			'<h1>Monday</h1>'+
+			'<ul>' +
+				getMon +
+			'</ul>'+
+			'<h1>Tuesday</h1>' +
+			'<ul>' +
+				getTue +
+			'</ul>' +
+			'<h1>Wednesday</h1>' +
+			'<ul>' +
+				getWeb +
+			'</ul>'+
+			'<h1>Thursday</h1>' +
+			'<ul>' +
+				getThu +
+			'</ul>' +
+			'<h1>Friday</h1>' +
+			'<ul>' +
+				getFri +
+			'</ul>'
+		)
+
+		// block Booking dataset (end)
+	</script>
 </body>
 </html>
