@@ -113,7 +113,7 @@ header {
   z-index: 1;
   right: -300px;
   padding: 40px;
-  transition: all 0.8s ease;
+  transition: all 0.7s ease;
   overflow: scroll; }
   #mobiMenu img {
     width: 25px;
@@ -1776,6 +1776,197 @@ footer {
       border-radius: 20px;
       font-size: 13px;
       padding: 8px 12px; }
+
+.pageHeadShopItemView {
+  background-image: url("../img/parallax-6.jpg");
+  background-position: center bottom !important; }
+
+#ShopItemView {
+  padding-top: 60px; }
+  #ShopItemView .shopText {
+    padding-left: 40px; }
+  #ShopItemView img {
+    width: 100%;
+    margin-bottom: 30px; }
+  #ShopItemView h1 {
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    line-height: 30px; }
+  #ShopItemView .stars {
+    margin-top: 5px; }
+    #ShopItemView .stars i {
+      color: #a3a3a3;
+      font-size: 14px; }
+  #ShopItemView h2 {
+    color: #a3a3a3;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 20px 0; }
+    #ShopItemView h2 span {
+      vertical-align: top;
+      font-size: 20px;
+      line-height: 20px;
+      margin-right: 10px; }
+  #ShopItemView p {
+    color: #a3a3a3;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 20px; }
+  #ShopItemView input {
+    background-color: white;
+    color: #a3a3a3;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #eee;
+    width: 100px;
+    padding: 10px 20px; }
+  #ShopItemView input[type="submit"] {
+    background-color: #8ac6d0;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+    color: #fff;
+    margin-left: 20px;
+    width: auto;
+    cursor: pointer; }
+  #ShopItemView .shopTags {
+    margin-top: 40px; }
+    #ShopItemView .shopTags p {
+      font-family: 'Playfair Display', sans-serif;
+      color: #727475;
+      font-size: 15px;
+      line-height: 29px;
+      margin-bottom: 10px; }
+    #ShopItemView .shopTags a {
+      padding: 7px;
+      border: 1px solid #f1f1f1;
+      font-size: 13px;
+      line-height: 13px;
+      border-radius: 25px;
+      color: #a3a3a3;
+      font-family: 'Open Sans', sans-serif;
+      margin-left: 5px; }
+
+.shopFeedbacksText h1 {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.shopFeedbackNav ul {
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #f1f1f1; }
+  .shopFeedbackNav ul li {
+    display: inline-block;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: normal;
+    padding: 20px 20px;
+    cursor: pointer; }
+  .shopFeedbackNav ul .active {
+    border-bottom: 2px solid #8AC6D0;
+    margin-bottom: -2px; }
+
+#shopFeedback h1 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #727475;
+  font-weight: 700;
+  font-family: 'Playfair Display', sans-serif; }
+
+#shopFeedback h5 {
+  font-size: 16px;
+  line-height: 16px;
+  color: #727475;
+  font-weight: 700;
+  font-family: 'Playfair Display', sans-serif;
+  margin-bottom: 15px; }
+
+#shopFeedback p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 29px;
+  color: #a3a3a3; }
+
+#shopFeedback i {
+  color: #a3a3a3;
+  font-size: 14px; }
+
+#shopFeedback .shopFeedbacks {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+  #shopFeedback .shopFeedbacks h1 {
+    padding-bottom: 40px; }
+  #shopFeedback .shopFeedbacks .stars {
+    float: right;
+    margin-top: -30px; }
+
+#shopFeedback .shopAddFeedback h1 {
+  margin-top: 40px; }
+
+#shopFeedback .shopAddFeedback input, #shopFeedback .shopAddFeedback textarea {
+  background-color: white;
+  color: #a3a3a3;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
+  display: block;
+  margin-bottom: 20px;
+  width: 100%; }
+
+#shopFeedback .shopAddFeedback input[type="submit"] {
+  background-color: #8ac6d0;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700px;
+  color: #fff;
+  width: auto;
+  cursor: pointer; }
+
+#shopRelatedProducts {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #eee;
+  text-align: center; }
+  #shopRelatedProducts img {
+    width: 100%;
+    margin-bottom: 20px; }
+  #shopRelatedProducts h1 {
+    font-family: 'Playfair Display', sans-serif;
+    color: #727475;
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left; }
+  #shopRelatedProducts a {
+    font-family: 'Playfair Display', sans-serif;
+    color: #727475;
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 25px; }
+  #shopRelatedProducts p {
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px; }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #logo img {

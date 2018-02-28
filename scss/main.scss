@@ -15,7 +15,7 @@ p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
 }
 
 
-a {
+a { // reset
   &:hover {
     text-decoration: none;
   }
@@ -143,7 +143,7 @@ header { //////////////////////////////////////////////////
   z-index: 1;
   right: -300px;
   padding: 40px;
-  transition: all 0.8s ease;
+  transition: all 0.7s ease;
   overflow: scroll;
   img {
     width: 25px;
@@ -2212,6 +2212,237 @@ footer {
     }
   }
 }
+
+
+//////////////////////////////////////////////////////
+// page ShopItemView
+.pageHeadShopItemView {
+  background-image: url('../img/parallax-6.jpg');
+  background-position: center bottom !important;
+}
+
+#ShopItemView {
+  padding-top: 60px;
+  .shopText {
+    padding-left: 40px;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  h1 {
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .stars {
+    margin-top: 5px; 
+    i {
+      color: #a3a3a3;    
+      font-size: 14px;  
+    }
+  }
+  h2 {
+    color: #a3a3a3;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 20px 0;
+    span {
+      vertical-align: top;
+      font-size: 20px;
+      line-height: 20px;
+      margin-right: 10px;
+    }
+  }
+  p {
+    color: rgb(163, 163, 163);
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(163, 163, 163);
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #eee;
+    width: 100px;
+    padding: 10px 20px;
+  }
+  input[type="submit"] {
+    background-color: #8ac6d0;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+    color: #fff;
+    margin-left: 20px;
+    width: auto;
+    cursor: pointer;
+  }
+  .shopTags {
+    margin-top: 40px;
+    p {
+      font-family: 'Playfair Display', sans-serif;
+      color: #727475;
+      font-size: 15px;
+      line-height: 29px;
+      margin-bottom: 10px;
+    }
+    a {
+      padding: 7px;
+      border: 1px solid #f1f1f1;
+      font-size: 13px;
+      line-height: 13px;
+      border-radius: 25px;
+      color: #a3a3a3;
+      font-family: 'Open Sans', sans-serif;
+      margin-left: 5px;
+    }
+  }
+}
+
+.shopFeedbacksText {
+  h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+
+.shopFeedbackNav {
+  ul {
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #f1f1f1;
+    li {
+      display: inline-block;
+      color: #727475;
+      font-family: 'Playfair Display', sans-serif;
+      font-size: 17px;
+      line-height: 17px;
+      font-weight: normal;
+      padding: 20px 20px;
+      cursor: pointer;
+    }
+    .active {
+      border-bottom: 2px solid #8AC6D0;
+      margin-bottom: -2px;
+    }
+  }
+}
+
+#shopFeedback {
+  h1 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #727475;
+    font-weight: 700;
+    font-family: 'Playfair Display', sans-serif;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 16px;
+    color: #727475;
+    font-weight: 700;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 15px;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    color: #a3a3a3;
+  }
+  i {
+    color: #a3a3a3;
+    font-size: 14px;    
+  }
+  .shopFeedbacks {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    h1 {
+      padding-bottom: 40px;
+    }
+    .stars {
+      float: right;
+      margin-top: -30px;
+    }
+  }
+  .shopAddFeedback {
+    h1 {
+      margin-top: 40px;
+    }
+    input, textarea {
+      background-color: rgb(255, 255, 255);
+      color: rgb(163, 163, 163);
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      border: none;
+      border-bottom: 1px solid #eee;
+      padding: 10px 20px;
+      display: block;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    input[type="submit"] {
+      background-color: #8ac6d0;
+      border-radius: 25px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-family: 'Playfair Display', sans-serif;
+      font-weight: 700px;      
+      color: #fff;
+      width: auto;
+      cursor: pointer;
+    }
+  }
+}
+
+#shopRelatedProducts{
+  padding-top: 40px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #eee;
+  text-align: center;  
+  img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-family: 'Playfair Display', sans-serif;
+    color: #727475;
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left;
+  } 
+  a {
+    font-family: 'Playfair Display', sans-serif;
+    color: #727475;
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  p {
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;        
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;    
+  }
+}
+
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
