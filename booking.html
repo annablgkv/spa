@@ -301,7 +301,10 @@
 <div id="bookingTable">
 	<div class="container">
 		<div class="row">
-			<div class="col-12" id="bookingGetTable">
+			<div class="col-12 d-none d-md-block" id="bookingGetTable">
+				<!-- js -->
+			</div>
+			<div class="col-12 d-block d-md-none" id="bookingGetTableMobi">
 				<!-- js -->
 			</div>
 		</div>
@@ -530,14 +533,16 @@
 		// block Booking dataset (start)
 		var dataBooking = [
 			//time    MON          TUE              WED              THU              FRI
-			["9:00",  "Skin Care", "",              "Sport Massage", "",              "Salt Bath"		],
-			["10:00", "",          "Manicure",      "", 							"Relax Massage", ""						],
-			["11:00", "Sauna",     "Pedicure",      "", 							"Exfoliating",   ""						],
-			["12:00", "", 				 "Body Scrub",    "Revitalizing",	"",              "Sport Massage"],
-			["13:00", "Skin Care", "",              "Sport Massage", "Salt Bath",     ""						],
-			["14:00", "Manicure",  "",              "Relax Massage", "",              ""						],
-			["15:00", "", 				 "Revitalizing",  "Exfoliating",   "",              "Sauna"				],			
+			["9:00",  "Skin Care", "",              "Sport Massage", "",              "Salt Bath"		 ],
+			["10:00", "",          "Manicure",      "", 					 	 "Relax Massage", ""						 ],
+			["11:00", "Sauna",     "Pedicure",      "", 					 	 "Exfoliating",   ""						 ],
+			["12:00", "", 				 "Body Scrub",    "Revitalizing",	 "",              "Sport Massage"],
+			["13:00", "Skin Care", "",              "Sport Massage", "Salt Bath",     ""						 ],
+			["14:00", "Manicure",  "",              "Relax Massage", "",              ""						 ],
+			["15:00", "", 				 "Revitalizing",  "Exfoliating",   "",              "Sauna"				 ],
+			["16:00", "", 				 "",  						"", 	 					 "", 							""				 		 ],									
 		]
+
 
 		getData = '';
 		for(var i=0; i<7; i++) {
@@ -567,6 +572,81 @@
 				'</tr>' +
 				getData +
 			'</table>'
+		)
+
+		//mobi
+
+		getMon = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][1] != "") {
+				getMon += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][1] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getTue = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][2] != "") {
+				getTue += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][2] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getWeb = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][3] != "") {
+				getWeb += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][3] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getThu = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][4] != "") {
+				getThu += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][4] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		getFri = ''
+		for(var i=0; i<7; i++) {
+			if (dataBooking[i][5] != "") {
+				getFri += '<li><a href="#" class="d-none d-sm-inline d-md-none">Book now </a>'+
+				dataBooking[i][5] +
+				'<span>'+ dataBooking[i][0] + ' - ' + dataBooking[i+1][0] + '</span>' +
+				'</li>'
+			}	
+		}
+
+		$('#bookingGetTableMobi').html('' +
+			'<h1>Monday</h1>'+
+			'<ul>' +
+				getMon +
+			'</ul>'+
+			'<h1>Tuesday</h1>' +
+			'<ul>' +
+				getTue +
+			'</ul>' +
+			'<h1>Wednesday</h1>' +
+			'<ul>' +
+				getWeb +
+			'</ul>'+
+			'<h1>Thursday</h1>' +
+			'<ul>' +
+				getThu +
+			'</ul>' +
+			'<h1>Friday</h1>' +
+			'<ul>' +
+				getFri +
+			'</ul>'
 		)
 
 		// block Booking dataset (end)

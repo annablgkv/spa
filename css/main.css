@@ -1311,34 +1311,53 @@ footer {
 .pageHeadBooking {
   background-image: url("../img/video-home-4-cover.jpg"); }
 
-#bookingTable {
+#bookingGetTable {
   padding: 70px 0; }
-  #bookingTable table {
+  #bookingGetTable table {
     text-align: center;
     font-family: "Playfair Display";
     color: #727475;
     font-size: 14px; }
-    #bookingTable table .tableTime {
+    #bookingGetTable table .tableTime {
       line-height: 40px; }
-    #bookingTable table a {
+    #bookingGetTable table a {
       font-weight: lighter;
       letter-spacing: 3px;
       font-size: 11px;
       font-family: 'Open Sans', sans-serif;
       color: #fff;
       text-transform: uppercase; }
-      #bookingTable table a:hover {
+      #bookingGetTable table a:hover {
         text-decoration: underline; }
-    #bookingTable table p {
+    #bookingGetTable table p {
       color: #fff; }
-    #bookingTable table .tableItem1 {
+    #bookingGetTable table .tableItem1 {
       background: #8ac6d0; }
-      #bookingTable table .tableItem1:hover {
+      #bookingGetTable table .tableItem1:hover {
         background: #ecbabe; }
-    #bookingTable table .tableItem2 {
+    #bookingGetTable table .tableItem2 {
       background: #ecbabe; }
-      #bookingTable table .tableItem2:hover {
+      #bookingGetTable table .tableItem2:hover {
         background: #8ac6d0; }
+
+#bookingGetTableMobi {
+  padding: 70px 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #727475; }
+  #bookingGetTableMobi h1 {
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  #bookingGetTableMobi ul {
+    margin: 0px;
+    padding: 0px; }
+    #bookingGetTableMobi ul li {
+      display: block;
+      border-bottom: 1px solid #eee;
+      padding: 0 10px; }
+      #bookingGetTableMobi ul li a {
+        margin-right: 20px; }
+      #bookingGetTableMobi ul li span {
+        float: right; }
 
 #bookingForm {
   background: transparent; }
