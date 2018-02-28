@@ -223,4 +223,3 @@ $('#aboutStuffTop').parallax({ imageSrc: './img/parallax-2.jpg', speed: 0.4 })
 // block about stuff page about (end)
 
 
-
