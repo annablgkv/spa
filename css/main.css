@@ -1491,6 +1491,21 @@ footer {
       line-height: 60px;
       font-family: 'Playfair Display', sans-serif; }
 
+.pageHeadPricesPage {
+  background-image: url("../img/parallax-12.jpg"); }
+
+#spaLinksPrices {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #spaLinksPrices .lastItem {
+    padding-bottom: 30px; }
+  #spaLinksPrices .spaLinkBlock1 {
+    background-image: url("../img/focus-8.jpg"); }
+  #spaLinksPrices .spaLinkBlock2 {
+    background-image: url("../img/focus-7.jpg"); }
+  #spaLinksPrices .spaLinkBlock3 {
+    background-image: url("../img/focus-9.jpg"); }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #logo img {
     padding-bottom: 25px; }

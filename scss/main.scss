@@ -1854,6 +1854,28 @@ footer {
 }
 
 
+//page Prices
+
+.pageHeadPricesPage{
+  background-image: url('../img/parallax-12.jpg');
+ 
+}
+#spaLinksPrices{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .lastItem{
+    padding-bottom: 30px;
+  }
+.spaLinkBlock1 {
+    background-image: url('../img/focus-8.jpg');
+  }
+ .spaLinkBlock2 {
+    background-image: url('../img/focus-7.jpg');
+  } 
+ .spaLinkBlock3 {
+    background-image: url('../img/focus-9.jpg');
+  }   
+}
 //////////////////////////////////////////////////
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2094,6 +2116,9 @@ footer { //////////////////////////////////////////////////
     margin-top: 40px;
   }
 }
+
+//page prices
+
 
 
 } // end! media Medium devices (tablets, 768px and up)
@@ -2399,6 +2424,8 @@ footer { //////////////////////////////////////////////////
    }
   }
 }
+
+
 
 } // end! media Small devices (landscape phones, 576px and up)
 ///////////////////////////////////////////////////
