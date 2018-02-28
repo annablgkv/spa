@@ -1582,6 +1582,201 @@ footer {
       line-height: 60px;
       font-family: 'Playfair Display', sans-serif; }
 
+.pageHeadPricesPage {
+  background-image: url("../img/parallax-12.jpg"); }
+
+#spaLinksPrices {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #spaLinksPrices .lastItem {
+    padding-bottom: 30px; }
+  #spaLinksPrices .spaLinkBlock1 {
+    background-image: url("../img/focus-8.jpg"); }
+  #spaLinksPrices .spaLinkBlock2 {
+    background-image: url("../img/focus-7.jpg"); }
+  #spaLinksPrices .spaLinkBlock3 {
+    background-image: url("../img/focus-9.jpg"); }
+
+#bestPromotions {
+  padding-bottom: 60px; }
+  #bestPromotions .spaLinkBlock1 {
+    background-image: url("../img/parallax-4.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px; }
+    #bestPromotions .spaLinkBlock1 a {
+      padding: 0; }
+    #bestPromotions .spaLinkBlock1 img {
+      width: 95px;
+      height: 95px;
+      position: absolute;
+      margin-top: 50%;
+      top: -47px;
+      margin-left: 50%;
+      left: -47px; }
+  #bestPromotions .inFramePrice {
+    padding-top: 40px;
+    border: 1px solid #eee;
+    padding: 40px; }
+  #bestPromotions .notFramedItems {
+    padding: 40px; }
+  #bestPromotions .itemBlockServies {
+    display: flow-root;
+    margin-top: 20px; }
+    #bestPromotions .itemBlockServies .procName {
+      position: relative;
+      float: left;
+      width: 50%; }
+      #bestPromotions .itemBlockServies .procName p {
+        background: #fff;
+        display: inline;
+        padding-right: 10px;
+        font-size: 17px;
+        line-height: 17px;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+        color: #727475;
+        text-transform: uppercase; }
+    #bestPromotions .itemBlockServies .procPrice {
+      position: relative;
+      float: right;
+      width: 50%;
+      text-align: right; }
+      #bestPromotions .itemBlockServies .procPrice p {
+        background: #fff;
+        display: inline;
+        padding-left: 10px;
+        font-size: 17px;
+        line-height: 17px;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+        color: #727475; }
+    #bestPromotions .itemBlockServies .procLine {
+      border-bottom: 1px dotted #eee;
+      width: 70%;
+      height: 20px;
+      position: absolute; }
+    #bestPromotions .itemBlockServies .procDesc {
+      position: relative;
+      float: left;
+      width: 80%; }
+      #bestPromotions .itemBlockServies .procDesc p {
+        font-size: 15px;
+        line-height: 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        color: #a3a3a3; }
+    #bestPromotions .itemBlockServies .procTag {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px; }
+      #bestPromotions .itemBlockServies .procTag p {
+        background: #fff;
+        border: 1px solid #f1f1f1;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #a3a3a3; }
+    #bestPromotions .itemBlockServies .procTagNew1 {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px; }
+      #bestPromotions .itemBlockServies .procTagNew1 p {
+        background: #ecbabe;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #fff; }
+    #bestPromotions .itemBlockServies .procTagNew2 {
+      position: relative;
+      float: right;
+      width: 20%;
+      text-align: right;
+      line-height: 29px; }
+      #bestPromotions .itemBlockServies .procTagNew2 p {
+        background: #8ac6d0;
+        font-family: 'Playfair Display', sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 13px;
+        color: #fff; }
+
+#promoOnBg {
+  background: transparent;
+  margin-top: 50px; }
+  #promoOnBg .shadow {
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 30px;
+    padding-bottom: 100px; }
+  #promoOnBg .onCenter {
+    text-align: center; }
+  #promoOnBg .promoVariation {
+    padding-top: 50px; }
+  #promoOnBg .topPromoVar {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 30px;
+    padding-left: 30px; }
+    #promoOnBg .topPromoVar h2 {
+      font-size: 40px;
+      line-height: 50px; }
+    #promoOnBg .topPromoVar p {
+      font-size: 13px; }
+  #promoOnBg .premium {
+    background-color: #ecbabe; }
+    #promoOnBg .premium h4 {
+      color: white; }
+    #promoOnBg .premium h2 {
+      color: white; }
+    #promoOnBg .premium p {
+      color: white; }
+  #promoOnBg .centerPromoVar {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0; }
+    #promoOnBg .centerPromoVar img {
+      position: relative;
+      float: left;
+      height: 19px;
+      padding-top: 7px;
+      padding-right: 10px; }
+    #promoOnBg .centerPromoVar p {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 5px;
+      line-height: 30px; }
+  #promoOnBg .bottomPromoVar {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+    #promoOnBg .bottomPromoVar a {
+      margin-top: 45px;
+      background-color: #ecbabe;
+      color: white;
+      border-radius: 20px;
+      font-size: 13px;
+      padding: 8px 12px; }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #logo img {
     padding-bottom: 25px; }
@@ -2028,4 +2223,10 @@ footer {
     border-bottom: 1px solid #eee; }
     #pngStuff .blockImagesItem img {
       width: 50px;
-      height: 50px; } }
+      height: 50px; }
+  #bestPromotions .spaLinkBlock1 {
+    height: 300px; }
+  #promoOnBg h2 {
+    font-size: 45px; }
+  #promoOnBg p {
+    font-size: 13px; } }
