@@ -113,7 +113,7 @@ header {
   z-index: 1;
   right: -300px;
   padding: 40px;
-  transition: all 0.8s ease;
+  transition: all 0.7s ease;
   overflow: scroll; }
   #mobiMenu img {
     width: 25px;

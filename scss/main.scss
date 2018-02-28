@@ -15,7 +15,7 @@ p, h1, h2, h3, h4, h5, h6 {	// сброс отступов текста
 }
 
 
-a {
+a { // reset
   &:hover {
     text-decoration: none;
   }
@@ -143,7 +143,7 @@ header { //////////////////////////////////////////////////
   z-index: 1;
   right: -300px;
   padding: 40px;
-  transition: all 0.8s ease;
+  transition: all 0.7s ease;
   overflow: scroll;
   img {
     width: 25px;
