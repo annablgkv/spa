@@ -363,6 +363,143 @@
 <!-- block with best promotions (end) -->
 
 
+<!-- block promoBg (start) -->
+<div id="promoOnBg">
+	<div class="shadow">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<div class="row">
+						<div class="col-12 col-sm-6 promoVariation">
+								<div class="topPromoVar">
+									<h4 class="mainPageText5">BASIC</h4>
+									<h2 class="mainText3">$ 49.99</h2>
+									<p class="mainPageOrdinaryText">PER MONTH</p>
+								</div>
+								<div class="centerPromoVar">
+									<img src="./img/icon-yes-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+									<img src="./img/icon-yes-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+									<img src="./img/icon-yes-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+									<img src="./img/icon-not-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+								</div>
+
+								<div class="bottomPromoVar">
+									<a href="" class="primaryBtn">Read More</a>
+								</div>
+						</div>
+
+							<div class="col-12 col-sm-6 promoVariation">
+								<div class="topPromoVar premium">
+									<h4 class="mainPageText5">PREMIUM</h4>
+									<h2 class="mainText3">$ 99.99</h2>
+									<p class="mainPageOrdinaryText">PER MONTH</p>
+								</div>
+								<div class="centerPromoVar">
+									<img src="./img/icon-yes-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+									<img src="./img/icon-yes-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+									<img src="./img/icon-yes-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+									<img src="./img/icon-yes-grey.png" alt="">
+									<p class="mainPageOrdinaryText">Lorem ipsum dolor sit</p>
+								</div>
+							
+								<div class="bottomPromoVar">
+									<a href="" class="primaryBtn">Read More</a>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<h2 class="mainTextWhite">Promotion</h2>
+					<p class="whitePText"> LOREM IPSUM DOLOR SIT AMET, CONSECTETURADIPISCING ELIT. DONEC AT LIGULA IN LIGULA ULTRICESVULPUTATE AT AC SAPIEN. IN JUSTO
+					NEQUE, MALESUADAA LIBERO ET, LOREM IPSUM DOLOR SIT AMET,CONSECTETUR ADIPISCING ELIT</p>
+					<div class="onCenter">
+						<a href="#" class="primaryBtn">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- block promoBg (end) -->
+
+<!-- block with something about and products (start) -->
+<div id="spaBottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<h3>About Us</h3>
+				<img src="./img/focus-4.jpg" alt="">
+				<p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue Lorem
+					ipsum dolor sit amet.</p>
+			</div>
+			<div class="col-12 col-lg-4">
+				<h3>Latest Products</h3>
+
+				<div class="products">
+					<img src="./img/shop-1-180x180.jpg">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-2-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-3-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="col-12 col-lg-4">
+				<h3>Best Products</h3>
+				<div class="products">
+					<img src="./img/shop-1-180x180.jpg">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-2-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-3-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- block with something about and products (END) -->
+
+
 <!-- modal Video >>  (start) -->
 <div class="modal fade bd-example-modal-lg" id="modalVideo" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-lg" role="document">
@@ -421,7 +558,13 @@
 	<script src="./js/parallax.min.js"></script>
 	<!-- main script -->
 	<script src="./js/main.js"></script>	
+
+
 	<script>
+		//page prices bg (start) 
+			$('#promoOnBg').parallax({ imageSrc: './img/parallax-1.jpg', speed: 0.7 })
+//page prices bg (start)
+
 		for (var i = 0; i < 5; i++) {
 				document.getElementById('itemBlockServices3').innerHTML += '' +
 					'<div class="itemBlockServies">' +
