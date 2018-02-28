@@ -1552,6 +1552,7 @@ footer {
   background-image: url('../img/parallax-5.jpg');
   background-position: center bottom;
 }
+
 #mattEffect{
   padding-top: 60px;
   padding-bottom: 30px;
@@ -1582,7 +1583,7 @@ footer {
   }
 }
 
-#articlesBlock{
+#articlesBlock {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1623,6 +1624,54 @@ footer {
   }
 }
 
+#bgImageOurStuff {////////////////////////////////
+  background: transparent;
+  
+  .shadow {
+    background: rgba(0,0,0,.2);
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+ h1{
+   text-align: left;
+ }
+ p{
+   text-align: left;
+ }
+  .itemOurStuff{
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    color: #a3a3a3;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+    img{
+      height: 40px;
+    }
+    h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+
+    text-align: center;
+    font-weight: normal;
+  }
+  h3{
+    color: #a3a3a3;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  }
+}
 
 //////////////////////////////////////////////////////
 // page Contact
@@ -2237,7 +2286,19 @@ footer { //////////////////////////////////////////////////
   }
 }
 
-
+//page services
+#bgImageOurStuff{
+ .textOnBg{
+   text-align: center;
+ }
+ h1{
+   text-align: center;
+ }
+ p{
+   text-align: center;
+ }
+  
+}
 
 } // end! media Small devices (landscape phones, 576px and up)
 ///////////////////////////////////////////////////
@@ -2582,5 +2643,20 @@ footer { //////////////////////////////////////////////////
   }
 }
 
+//page services
+#bgImageOurStuff{
+ .textOnBg{
+   text-align: center;
+ }
+ h1{
+   text-align: center;
+   font-size: 45px;
+ }
+ p{
+   text-align: center;
+   font-size: 13px;
+ }
+  
+}
 
 } // end! media Extra small devices (portrait phones, less than 576px)
