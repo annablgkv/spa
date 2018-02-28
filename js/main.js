@@ -219,3 +219,5 @@ $('#blockContact').parallax({ imageSrc: './img/parallax-3.jpg', speed: 0.7 })
 // block about stuff page about (start)
 $('#aboutStuffTop').parallax({ imageSrc: './img/parallax-2.jpg', speed: 0.4 })
 // block about stuff page about (end)
+
+

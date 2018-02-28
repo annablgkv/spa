@@ -297,8 +297,156 @@
 
 
 
+<!-- block BookingForm (start) -->
+<div id="bookingForm">
+	<div class="shadow">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-sm-2 col-lg-3"></div>
 
 
+				<div class="col-12 col-sm-8 col-lg-6">
+					<form>
+						<p>BOOKING</p>
+						<h1>Send a Request</h1>
+
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Name">
+							</div>
+
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Surname">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<input type="email" placeholder="Email">
+							</div>
+						
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Subject">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+								<input type="text" placeholder="Treatment">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<input type="date">
+							</div>
+						
+							<div class="col-12 col-md-6">
+								<input type="text" placeholder="Hour 9:00">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+								<textarea rows="4" placeholder="Message"></textarea>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+								<input type="submit" value="Book now">
+							</div>
+						</div>
+
+
+
+					</form>
+				</div>
+
+
+				<div class="col-12 col-sm-2 col-lg-3"></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- block BookingForm (end) -->
+
+
+
+
+
+
+<!-- block with something about and products (start) -->
+<div id="spaBottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<h3>About Us</h3>
+				<img src="./img/focus-4.jpg" alt="">
+				<p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue Lorem
+					ipsum dolor sit amet.</p>
+			</div>
+			<div class="col-12 col-lg-4">
+				<h3>Latest Products</h3>
+
+				<div class="products">
+					<img src="./img/shop-1-180x180.jpg">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-2-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-3-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="col-12 col-lg-4">
+				<h3>Best Products</h3>
+				<div class="products">
+					<img src="./img/shop-1-180x180.jpg">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-2-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+
+				<div class="products">
+					<img src="./img/shop-3-180x180.jpg" alt="">
+					<div class="description">
+						<h2>Honey Mask 100 cl</h2>
+						<h4>$13.80</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- block with something about and products (start) -->
 
 
 
@@ -350,6 +498,10 @@
 	<!-- parallax.js -->
 	<script src="./js/parallax.min.js"></script>
 	<!-- main script -->
-	<script src="./js/main.js"></script>	
+	<script src="./js/main.js"></script>
+	<!-- script background block BookingForm -->
+	<script>
+		$('#bookingForm').parallax({ imageSrc: './img/parallax-4.jpg', speed: 0.3 })
+	</script>
 </body>
 </html>
