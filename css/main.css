@@ -1347,6 +1347,28 @@ footer {
       letter-spacing: 3px;
       text-transform: uppercase; }
 
+#pngStuff {
+  border-bottom: 1px solid #eee; }
+  #pngStuff .blockImagesItem {
+    height: 225px;
+    text-align: center;
+    border-right: 1px solid #eee; }
+    #pngStuff .blockImagesItem img {
+      width: 70px;
+      height: 70px;
+      margin-top: 50px;
+      margin-bottom: 20px; }
+    #pngStuff .blockImagesItem p {
+      color: #a3a3a3;
+      text-align: center;
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 3px;
+      font-weight: 300;
+      font-family: 'Open Sans', sans-serif; }
+  #pngStuff .blockImagesLastItem {
+    border: none; }
+
 .pageHeadContact {
   background-image: url("../img/video-home-4-cover.jpg"); }
 
@@ -1672,7 +1694,12 @@ footer {
   #bgImageOurStuff h1 {
     text-align: center; }
   #bgImageOurStuff p {
-    text-align: center; } }
+    text-align: center; }
+  #pngStuff .blockImagesItem {
+    height: 170px; }
+    #pngStuff .blockImagesItem img {
+      width: 50px;
+      height: 50px; } }
 
 @media (max-width: 575.98px) {
   #logo img {
@@ -1857,4 +1884,10 @@ footer {
     font-size: 45px; }
   #bgImageOurStuff p {
     text-align: center;
-    font-size: 13px; } }
+    font-size: 13px; }
+  #pngStuff .blockImagesItem {
+    height: 170px;
+    border-bottom: 1px solid #eee; }
+    #pngStuff .blockImagesItem img {
+      width: 50px;
+      height: 50px; } }

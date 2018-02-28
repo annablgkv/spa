@@ -1673,6 +1673,36 @@ footer {
   }
 }
 
+#pngStuff{
+  border-bottom: 1px solid #eee;
+  
+  .blockImagesItem{
+  height: 225px;
+  text-align: center;
+  img {
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+  }
+  border-right: 1px solid #eee;
+}
+  .blockImagesLastItem {
+    border: none;
+  }
+
+}
+  
+
 //////////////////////////////////////////////////////
 // page Contact
 .pageHeadContact {
@@ -2300,6 +2330,17 @@ footer { //////////////////////////////////////////////////
   
 }
 
+#pngStuff{
+  .blockImagesItem{
+  height: 170px;
+  
+   img {
+    width: 50px;
+    height: 50px;
+   }
+  }
+}
+
 } // end! media Small devices (landscape phones, 576px and up)
 ///////////////////////////////////////////////////
 // Extra small devices (portrait phones, less than 576px)
@@ -2657,6 +2698,19 @@ footer { //////////////////////////////////////////////////
    font-size: 13px;
  }
   
+}
+
+#pngStuff{
+  .blockImagesItem{
+  height: 170px;
+  border-bottom: 1px solid #eee;
+  
+  
+   img {
+    width: 50px;
+    height: 50px;
+   }
+  }
 }
 
 } // end! media Extra small devices (portrait phones, less than 576px)
