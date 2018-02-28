@@ -1723,7 +1723,44 @@ footer {
     line-height: 40px;
   }
 }
-  
+
+#lotTextServ{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  .floatingImg{
+    position: relative;
+    float: left;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  img{
+    height: 45px;
+    
+  }
+    h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #727475;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  a{
+    margin-top: -45px;
+    border: 1px solid #f1f1f1;
+    color: #a3a3a3;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 8px 12px;
+    text-transform: uppercase;
+  }
+  .firstLayer{
+    padding-bottom: 50px;
+  }
+}
+
 
 //////////////////////////////////////////////////////
 // page Contact
